@@ -1,0 +1,14 @@
+@import url("/css/imports/fonts.css");
+
+
+
+
+
+.welcome-banner {
+    max-width: 1280px;
+    max-height: 630px;
+    background-color: var(--theme-color-orange);
+}
+
+
+

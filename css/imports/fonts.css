@@ -3,7 +3,38 @@
     src: url('/fonts/Audiowide/Audiowide-Regular.ttf') format("trueType");
 }
 
+@font-face {
+    font-family: Marvel;
+    src: url('/fonts/Marvel/Marvel-Regular.ttf') format("trueType");
+}
+
 
 h1 {
     font-family: Audiowide;
+    font-size: 2.5rem;
+    text-transform: uppercase;
 }
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h1, h2, h3 {
+    color: var(--theme-color-dark);
+}
+
+h2, h3 {
+    font-family: Marvel;
+}
+
+p {
+    font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    font-size: 1rem;
+}
+
+
+

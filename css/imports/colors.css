@@ -1,0 +1,39 @@
+.color-blue {
+    color: var(--theme-color-blue)
+}
+
+.color-orange {
+    color: var(--theme-color-orange)
+}
+
+.color-red {
+    color: var(--theme-color-red)
+}
+
+.color-green {
+    color: var(--theme-color-green);
+}
+
+.color-yellow {
+    color: var(--theme-color-yellow);
+}
+
+.color-purple {
+    color: var(--theme-color-purple)
+}
+
+.color-turq {
+    color: var(--theme-color-turq)
+}
+
+.color-light {
+    color: var(--theme-color-light)
+}
+
+.color-dark {
+    color: var(--theme-color-dark)
+}
+
+.color-grey {
+    color: var(--theme-color-grey)
+}

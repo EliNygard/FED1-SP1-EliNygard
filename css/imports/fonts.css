@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Audiowide;
+    src: url('/fonts/Audiowide/Audiowide-Regular.ttf') format("trueType");
+}
+
+
+h1 {
+    font-family: Audiowide;
+}

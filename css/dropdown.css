@@ -1,7 +1,7 @@
 header nav,
 #menu-checkbox {
     display: none;
-} 
+}
 
 #menu-checkbox:checked~nav {
     display: block;
@@ -14,20 +14,17 @@ header nav,
 
 .dropdown > nav {
     position: absolute;
-    background-color: var(--theme-color-purple);
+    background-color: var(--theme-color-orange);
     top: 3.2rem;
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
-    min-width: 100vw;
+    width: 100vw;
 }
 
 .dropdown ul {
     list-style: none;
-    margin: auto;
 }
 
 .dropdown ul li {
-    padding: 1rem;
+    padding: .5rem;
 }
 
 .dropdown ul li a span {
@@ -36,16 +33,18 @@ header nav,
     font-size: 1.3rem;
 }
 
-.nav-mobile { /*grid styling*/
-    
+.nav-grid {
+   display: grid;
+   grid-template-columns: minmax (400px, 1fr);
+
 }
 
 
-.dropdown ul li a span {
+/* .dropdown ul li a span {
     cursor: pointer;
     border: 1px solid transparent;
 }
 
 .dropdown ul li a span:focus {
     border: 1px solid var(--theme-color-dark);
-}
+} */

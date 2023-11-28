@@ -1,5 +1,6 @@
 header {
     background: var(--theme-color-orange);
+    color: var(--theme-color-dark);
     font-family: Audiowide;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -30,5 +31,7 @@ header > p {
 
 a {
     text-decoration: none;
+    color: inherit;
+
 }
 

@@ -8,7 +8,6 @@
     src: url('/fonts/Marvel/Marvel-Regular.ttf') format("trueType");
 }
 
-
 h1 {
     font-family: Audiowide;
     font-size: 2.5rem;
@@ -36,5 +35,7 @@ p {
     font-size: 1rem;
 }
 
-
+.uppercase {
+    text-transform: uppercase;
+}
 

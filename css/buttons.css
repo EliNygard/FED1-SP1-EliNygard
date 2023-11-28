@@ -1,0 +1,16 @@
+button {
+    border-style: none;
+    width: 264px;
+    height: 48px;
+    
+    border-radius: 3px;
+    font-family: Marvel;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+nav button {
+    background-color: var(--theme-color-grey);
+    color: var(--theme-color-light);
+}

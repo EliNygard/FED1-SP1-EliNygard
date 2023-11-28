@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Come join us at the Drammen Science Museum where we're committed to making science accessible to all.">
         <title>Drammen Science Museum | Home</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="/styles.css">
     </head>
     <body>
@@ -13,9 +14,9 @@
             <a href="index.html" class="hide-on-mobile header-left" tabindex="0">Drammen Science Museum</a>
             <div class="header-right dropdown">
                 <input type="checkbox" id="menu-checkbox">
-                <label for="menu-checkbox"><span tabindex="0">Menu</span></label>
-                <nav class="nav-mobile">
-                    <ul>
+                <label tabindex="0" for="menu-checkbox"><span>Menu</span></label>
+                <nav>
+                    <ul class="nav-grid">
                         <li>
                             <a href="/html/exhibitions.html">
                                 <button>Exhibitions</button>
@@ -28,7 +29,7 @@
                         </li>
                         <li>
                             <a href="/html/explore-kids.html">
-                                <span>For Kids</span>
+                                <span>For Kids</span><i class="fa-solid fa-rocket"></i>
                             </a>
                         </li>
                         <li>
@@ -69,9 +70,6 @@
                     </ul>
                 </nav>
             </div>
-            
-                
-
             </nav>
         </header>
         <main>
@@ -80,6 +78,59 @@
                 <h1>together</h1>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <nav class="flex flex-column align-center">
+                <li>
+                    <span class="logo">Drammen Science Museum</span>
+                </li>
+                <li>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Opening hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday</td>
+                                <td>Closed</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday</td>
+                                <td>10:00 - 16:00</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday</td>
+                                <td>10:00 - 16:00</td>
+                            </tr>
+                            <tr>
+                                <td>Thursday</td>
+                                <td>10:00 - 16:00</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>10:00 - 19:00</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>09:00 - 16:00</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>09:00 - 13:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <li>
+                    <span class="uppercase">Find us at</span>
+                    <address>Strømsø Torg 4</address>
+                    <address>3044 Drammen</address>
+                </li>
+                <li><a href="/html/contact.html">Contact us</a></li>
+                <li><a href="/html/privacy.html">Privacy Policy</a></li>
+                <li><a href="/html/terms.html">Terms and Conditions</a></li>
+            </nav>
+        </footer>
     </body>
 </html>

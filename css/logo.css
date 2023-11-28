@@ -1,0 +1,13 @@
+.logo, .logo-small, .logo-medium, .logo-big {
+    font-family: Audiowide;
+    text-align: center;
+}
+
+.logo-small, .logo-medium, .logo-big {
+text-transform: uppercase;
+}
+
+.logo-small {
+    font-size: 1.1rem;
+    line-height: 0.9rem; 
+}

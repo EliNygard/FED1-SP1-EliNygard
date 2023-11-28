@@ -33,18 +33,13 @@ header nav,
     font-size: 1.3rem;
 }
 
+.dropdown .nav-grid li a:hover a {
+    border: 1px solid aqua;
+}
+
 .nav-grid {
    display: grid;
    grid-template-columns: minmax (400px, 1fr);
 
 }
 
-
-/* .dropdown ul li a span {
-    cursor: pointer;
-    border: 1px solid transparent;
-}
-
-.dropdown ul li a span:focus {
-    border: 1px solid var(--theme-color-dark);
-} */

@@ -1,7 +1,3 @@
-.dropdown {
-    position: relative;
-}
-
 header nav,
 #menu-checkbox {
     display: none;
@@ -12,11 +8,44 @@ header nav,
     z-index: 10;
 }
 
-.dropdown > nav {
-    position: absolute;
-    background-color: var(--theme-color-orange);
+.dropdown {
+    position: relative;
 }
 
-.nav-mobile {
+.dropdown > nav {
+    position: absolute;
+    background-color: var(--theme-color-purple);
+    top: 3.2rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    min-width: 100vw;
+}
 
+.dropdown ul {
+    list-style: none;
+    margin: auto;
+}
+
+.dropdown ul li {
+    padding: 1rem;
+}
+
+.dropdown ul li a span {
+    color: var(--theme-color-dark);
+    font-family: Marvel;
+    font-size: 1.3rem;
+}
+
+.nav-mobile { /*grid styling*/
+    
+}
+
+
+.dropdown ul li a span {
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.dropdown ul li a span:focus {
+    border: 1px solid var(--theme-color-dark);
 }

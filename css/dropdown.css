@@ -1,0 +1,22 @@
+.dropdown {
+    position: relative;
+}
+
+header nav,
+#menu-checkbox {
+    display: none;
+} 
+
+#menu-checkbox:checked~nav {
+    display: block;
+    z-index: 10;
+}
+
+.dropdown > nav {
+    position: absolute;
+    background-color: var(--theme-color-orange);
+}
+
+.nav-mobile {
+
+}

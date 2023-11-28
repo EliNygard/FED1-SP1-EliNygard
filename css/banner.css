@@ -1,0 +1,5 @@
+.welcome-banner {
+    max-width: 1280px;
+    max-height: 1000px;
+    background-color: var(--theme-color-orange);
+}

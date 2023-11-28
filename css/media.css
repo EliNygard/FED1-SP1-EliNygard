@@ -1,3 +1,11 @@
+@media only screen and (max-width: 799px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+
+
 @media only screen and (min-width: 800px) {
     
     h1 {
@@ -10,5 +18,9 @@
     
     p {
         font-size: 1.1rem;
+    }
+
+    .hide-on-desktop {
+        display: none;
     }
 }

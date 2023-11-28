@@ -27,3 +27,8 @@ td, th {
 address {
     font-style: normal;
 }
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}

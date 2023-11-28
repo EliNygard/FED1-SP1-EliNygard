@@ -2,15 +2,25 @@ button {
     border-style: none;
     width: 264px;
     height: 48px;
-    
     border-radius: 3px;
     font-family: Marvel;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.4rem;
+    padding: 0;
 }
 
 nav button {
     background-color: var(--theme-color-grey);
     color: var(--theme-color-light);
+}
+
+.button-category {
+    text-transform: none;
+    background-color:transparent;
+    color: var(--theme-color-dark);
+    font-weight: normal;
+    text-align: left;
+    border: transparent;
+    height: 40px;
 }

@@ -1,11 +1,11 @@
 @font-face {
     font-family: Audiowide;
-    src: url('/fonts/Audiowide/Audiowide-Regular.ttf') format("trueType");
+    src: url('/fonts/Audiowide/Audiowide-Regular.ttf') format("ttf");
 }
 
 @font-face {
     font-family: Marvel;
-    src: url('/fonts/Marvel/Marvel-Regular.ttf') format("trueType");
+    src: url('/fonts/Marvel/Marvel-Regular.ttf') format("ttf");
 }
 
 h1 {

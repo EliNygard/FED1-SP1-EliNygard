@@ -16,8 +16,10 @@ header nav,
     position: absolute;
     background-color: var(--theme-color-orange);
     top: 3.2rem;
-    width: 100vw;
-    margin: auto;
+    right: 0px;
+    min-width: 100vw;
+    margin: 0;
+    padding: 4rem;
 }
 
 .dropdown ul {
@@ -34,14 +36,21 @@ header nav,
     font-size: 1.3rem;
 }
 
+.dropdown-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(auto, auto);
+    gap: 1rem;
+    max-width: 264px;
+    margin: auto;
+    padding: 0;
+}
+
 .button-category:hover {
     border: 2px solid var(--theme-color-turq);
 }
 
-.nav-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-}
+
 
 
 

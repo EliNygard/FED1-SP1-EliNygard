@@ -2,14 +2,14 @@ header {
     background: var(--theme-color-orange);
     color: var(--theme-color-dark);
     font-family: Audiowide;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     position: sticky;
     top: 0;
 }
 
-header ul {
+header div {
     max-width: 1280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin: auto;       /*DRY gjelder også header og main*/
     padding: 0;
 }
@@ -23,15 +23,16 @@ header > p {
     display: flex;
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
+    align-items: end;
 }
 
 .header-left {
-    justify-content: start;
+    justify-content: flex-start;
     padding-left: 1rem;
 }
 
 .header-right {
-    justify-content: end;
+    justify-content: flex-end;
     padding-right: 1rem;
 }
 

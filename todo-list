@@ -1,53 +1,9 @@
-lag bilde av logo
-finn fav icon av de tre bokstavene
 
+finn fav icon. noe fra et bilde?
 
-    .header-item-1 {
-        grid-column: ; 
-        grid-row: ;
-    }
+dropdown: i stede for buttons - bruk a link og style de som buttons
 
-    .header-item-2 {
-        grid-column: ; 
-        grid-row: ;
-    }
+dropdown big screens: gult på høyre side 
 
-    .header-item-3 {
-        grid-column: ; 
-        grid-row: ;
-    }
+dropdown: mellomrom mellom ikoner
 
-    .header-item-4 {
-        grid-column: ; 
-        grid-row: ;
-    }
-
-    .header-item-5 {
-        grid-column: ; 
-        grid-row: ;
-    }
-
-    .header-item-6 {
-        grid-column: ; 
-        grid-row: ;
-    }
-
-    .header-item-7 {
-        grid-column: ; 
-        grid-row: ;
-    }
-
-    .header-item-8 {
-        grid-column: ; 
-        grid-row: ;
-    }
-
-    .header-item-9 {
-        grid-column: ; 
-        grid-row: ;
-    }
-
-    .header-item-10 {
-        grid-column: ; 
-        grid-row: ;
-    }

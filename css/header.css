@@ -11,7 +11,7 @@ header div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: auto;       /*DRY gjelder også header og main*/
-    padding: 0;
+    padding-top: 1rem;
 }
 
 header > p {

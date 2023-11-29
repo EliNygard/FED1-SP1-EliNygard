@@ -10,7 +10,7 @@ button {
     padding: 0;
 }
 
-button {
+nav button {
     background-color: var(--theme-color-grey);
     color: var(--theme-color-light);
 }

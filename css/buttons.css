@@ -15,12 +15,23 @@ nav button {
     color: var(--theme-color-light);
 }
 
+nav button:hover {
+    background-color: aliceblue;
+} 
+
 .button-category {
     text-transform: none;
     background-color:transparent;
     color: var(--theme-color-dark);
     font-weight: normal;
     text-align: left;
-    border: transparent;
+    border: 3px solid transparent;
     height: 40px;
 }
+
+.button-category:hover {
+    border: 3px solid var(--theme-color-turq);
+}
+
+
+

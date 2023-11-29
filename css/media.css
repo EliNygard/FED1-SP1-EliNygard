@@ -27,7 +27,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: minmax(auto, auto);
-        gap: 2rem;
+        gap: 1rem;
         max-width: 600px;
      }
 

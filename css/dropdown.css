@@ -46,9 +46,7 @@ header nav,
     padding: 0;
 }
 
-.button-category:hover {
-    border: 2px solid var(--theme-color-turq);
-}
+
 
 
 

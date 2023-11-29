@@ -1,0 +1,24 @@
+/*fundemental code*/
+@import url("./css/reset.css");
+@import url("./css/imports/variables.css");
+@import url("./css/imports/fonts.css");
+@import url("./css/imports/colors.css");
+
+
+/*component specific code*/
+@import url("./css/header.css");
+@import url("./css/footer.css");
+@import url("./css/dropdown.css");
+@import url("./css/buttons.css");
+@import url("./css/banner.css");
+@import url("./css/flex.css");
+@import url("./css/logo.css");
+
+
+
+/*media*/
+@import url("./css/media.css");
+
+
+
+

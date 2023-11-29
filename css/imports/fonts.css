@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Audiowide";
+    font-family: Audiowide;
     src: url('/fonts/Audiowide/Audiowide-Regular.ttf') format("opentype");
 }
 
@@ -11,7 +11,7 @@
 
 
 h1 {
-    font-family: "Audiowide", sans-serif;
+    font-family: Audiowide, sans-serif;
     font-size: 2.5rem;
     text-transform: uppercase;
 }

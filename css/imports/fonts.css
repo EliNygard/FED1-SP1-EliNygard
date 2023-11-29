@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: Audiowide;
     src: url('/fonts/Audiowide/Audiowide-Regular.ttf') format("opentype");
 }
@@ -6,7 +6,7 @@
 @font-face {
     font-family: Marvel;
     src: url('/fonts/Marvel/Marvel-Regular.ttf') format("opentype");
-}
+} */
 
 
 
@@ -29,7 +29,7 @@ h1, h2, h3 {
 }
 
 h2, h3 {
-    font-family: Marvel;
+    font-family: Marvel, sans-serif;
 }
 
 p {

@@ -1,15 +1,17 @@
 @font-face {
-    font-family: Audiowide;
-    src: url('/fonts/Audiowide/Audiowide-Regular.ttf') format("ttf");
+    font-family: "Audiowide";
+    src: url('/fonts/Audiowide/Audiowide-Regular.ttf') format("opentype");
 }
 
 @font-face {
     font-family: Marvel;
-    src: url('/fonts/Marvel/Marvel-Regular.ttf') format("ttf");
+    src: url('/fonts/Marvel/Marvel-Regular.ttf') format("opentype");
 }
 
+
+
 h1 {
-    font-family: Audiowide;
+    font-family: "Audiowide", sans-serif;
     font-size: 2.5rem;
     text-transform: uppercase;
 }

@@ -8,6 +8,12 @@ header {
     top: 0;
 }
 
+header ul {
+    max-width: 1280px;
+    margin: auto;       /*DRY gjelder også header og main*/
+    padding: 0;
+}
+
 header > p {
     padding: 0;
     margin: 0;

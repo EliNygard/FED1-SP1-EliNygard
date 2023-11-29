@@ -6,6 +6,8 @@ footer {
 }
 
 footer ul {
+    max-width: 1280px;
+    margin: auto;       /*DRY gjelder også header og main*/
     padding: 0;
 }
 
@@ -28,7 +30,27 @@ address {
     font-style: normal;
 }
 
+address span {
+    padding: 1px 0 1px 1px;
+}
+
 .footer-grid {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto, auto);
+    gap: 1rem;
+}
+
+.footer-item-1, .footer-item-2, 
+.footer-item-3, .footer-item-4, 
+.footer-item-5, .footer-item-6, 
+.footer-item-7 {
+    grid-column: 1;
+    justify-self: center;
+    align-self: end;
+}
+
+.footer-item-7 {
+    display: inline-flex;
+    gap: 1rem;
 }

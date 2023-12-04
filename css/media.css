@@ -135,12 +135,9 @@
     /*Info Banner*/
 
     .info-banner {
-        max-width: 1280px;
-        margin: auto;
-        background-color: var(--theme-color-red);
         display: grid;
-        grid-template-columns: 50% 30% 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 45% 30% 1fr;
+        grid-template-rows: 1fr 20%;
         gap: 1rem;
         padding: 4.5rem;
     }
@@ -150,12 +147,6 @@
         max-height: 338px;
         width: 100%;
         object-fit: cover;
-        
-    }
-
-    .info-item-1, .info-item-2 {
-        align-self: center;
-        justify-self: center;
     }
     
     .info-item-1 {
@@ -176,7 +167,7 @@
         grid-row: 2;
         justify-self: self-start;
         align-self: self-end;
-        font-size: 1.4rem;
+        font-size: 120%;
     }
     
     .info-item-4 {

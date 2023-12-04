@@ -1,39 +1,49 @@
 header {
     background: var(--theme-color-orange);
     color: var(--theme-color-dark);
-    font-family: Audiowide;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 1.1rem;
     position: sticky;
     top: 0;
 }
-
+/*
 header div {
     max-width: 1280px;
+    display: flex;
+    flex-direction: row;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: auto;       /*DRY gjelder også header og main*/
+    grid-template-columns: 1fr 1fr; 
+    margin: auto;      
     padding-top: 1rem;
-}
+} */
 
 header > p {
     padding: 0;
     margin: 0;
 }
 
-.header-left, .header-right {
+.header-container {
     display: flex;
-    padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
-    align-items: end;
+    justify-content: space-between;
+    max-width: 1280px;
+    padding: 0;
+    margin: auto;
 }
 
+/* .header-left, .header-right {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    align-items: flex-end;
+    margin: 0;
+} */
+
 .header-left {
-    justify-content: flex-start;
-    padding-left: 1rem;
+    padding: 2rem 1rem 1rem 1.5rem
 }
 
 .header-right {
-    justify-content: flex-end;
-    padding-right: 1rem;
+    padding: 2rem 1.5rem 1rem 1rem;
 }
 
 a {

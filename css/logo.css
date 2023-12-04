@@ -1,3 +1,7 @@
+.logo-container {
+    background-color: var(--theme-color-light);
+}
+
 .logo, .logo-small, .logo-medium, .logo-big {
     font-family: Audiowide;
     text-align: center;
@@ -10,4 +14,12 @@ text-transform: uppercase;
 .logo-small {
     font-size: 1.1rem;
     line-height: 0.9rem; 
+}
+
+.logo-big {
+    font-size: 2rem;
+    line-height: 1.6rem;
+    padding: 4rem 0rem;
+    margin: auto;
+    text-align: center;
 }

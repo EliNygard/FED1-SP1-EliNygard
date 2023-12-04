@@ -16,10 +16,9 @@ header nav,
     position: absolute;
     background-color: var(--theme-color-orange);
     top: 3.2rem;
-    right: 0px;
-    min-width: 100vw;
     margin: 0;
-    padding: 4rem;
+    padding: 0;
+    width: 100vw;
 }
 
 .dropdown ul {
@@ -41,9 +40,8 @@ header nav,
     grid-template-columns: 1fr;
     grid-template-rows: minmax(auto, auto);
     gap: 1rem;
-    max-width: 264px;
     margin: auto;
-    padding: 0;
+    padding: 3rem;
 }
 
 

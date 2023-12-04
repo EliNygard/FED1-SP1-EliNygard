@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Come join us at the Drammen Science Museum where we're committed to making science accessible to all.">
-        <title>Drammen Science Museum | Home</title>
+        <meta name="description" content="Come join us at the Tórshavn Science Museum where we're committed to making science accessible to all.">
+        <title>Tórshavn Science Museum | Home</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,18 +13,18 @@
     </head>
     <body>
         <header>
-            <div>
-                <li class="header-left">
-                    <a href="index.html" class="hide-on-desktop" tabindex="0">DSM</a>
-                    <a href="index.html" class="hide-on-mobile" tabindex="0">Drammen Science Museum</a>
-                </li>
-                <li class="header-right dropdown">
+            <div class="header-container">
+                <div class="header-left">
+                    <a href="index.html" class="hide-on-desktop" tabindex="0">TSM</a>
+                    <a href="index.html" class="hide-on-mobile" tabindex="0">Tórshavn Science Museum</a>
+                </div>
+                <div class="header-right dropdown">
                     <input type="checkbox" id="menu-checkbox">
                     <label tabindex="0" for="menu-checkbox"><span>Menu</span></label>
                     <nav>
                         <ul class="dropdown-grid">
                             <li class="dropdown-item-1">
-                                <a href="/html/exhibitions.html">
+                                <a  href="/html/exhibitions.html">
                                     <button>Exhibitions</button>
                                 </a>
                             </li>
@@ -75,14 +75,66 @@
                             </li>
                         </ul>    
                     </nav>
-                </li>
+                </div>
             </div>
         </header>
         <main>
-            <div class="welcome-banner">
-                <h1>Explore</h1>
-                <h1>together</h1>
+            <div class="banner-bg">
+                <section class="welcome-banner">
+                    <h1 class="text-center slogan">Explore<br>Together</h1>
+                    <img src="/assets/home banner/giu-vicente-FMArg2k3qOU-unsplash-small.jpg" alt="Image of two kids exploring a VR game">
+                    <button>
+                        <span class="button-styles">Young Stars Club</span>
+                    </button>
+                </section>
             </div>
+            <section class="logo-container">
+                <h1 class="logo-big">
+                    Tórshavn<br>Science<br>Museum
+                </h1>
+            </section>
+            <section class="info-banner">
+                <img src="/assets/info-exhibitions-toa-heftiba-412579.jpg" alt="A view over the museums entrance hall with our huge dinasour in the middle of the room">
+                <table class="info-item-1">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Opening hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>Closed</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>10:00 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>10:00 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>10:00 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>10:00 - 19:00</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>09:00 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>09:00 - 13:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="info-item-2">Free Entrance Every Day</p>
+                <button class="button-short info-item-3">Visit Us</button>
+            </section>            
         </main>
         <footer>
             <nav >
@@ -90,9 +142,7 @@
                     <li class="footer-item-1">
                         <a href="index.html">
                             <p class="logo-small">
-                                Drammen<br />
-                                Science<br />
-                                Museum
+                                Tórshavn<br/>Science<br/>Museum
                             </p>                    
                         </a>
                     </li>
@@ -136,10 +186,10 @@
                         </table>
                     </li>
                     <li class="footer-item-3">
-                        <address class="">
+                        <address>
                             <span class="uppercase">Find us at</span><br />
-                            Strømsø Torg 4 <br />
-                            3044 Drammen
+                            Hvalsoyargøta 9 <br />
+                            100 Tórshavn
                         </address>
                     </li>
                     <li class="footer-item-4">

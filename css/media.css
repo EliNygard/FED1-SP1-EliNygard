@@ -1,11 +1,11 @@
-@media only screen and (max-width: 899px) {
+@media only screen and (max-width: 767px) {
     .hide-on-mobile {
         display: none;
     }
 }
 
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
     
     h1 {
         font-size: 3.6rem;
@@ -23,12 +23,19 @@
         display: none;
     }
 
+    header {
+        font-size: 1.2rem;
+    }
+
+    /* Dropdown Menu */
+
     .dropdown-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: minmax(auto, auto);
         gap: 1rem;
-        max-width: 600px;
+        margin: auto;
+        padding: 3rem;
      }
 
      .dropdown-item-1 {
@@ -80,6 +87,55 @@
         grid-column: 2; 
         grid-row: 2;
     }
+
+    /* Welcome Banner */
+
+    .welcome-banner {
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: .5rem;
+        margin: auto;
+        padding: 2rem 1.5rem;
+    }
+
+    .welcome-banner img {
+        max-width: 766px;
+        max-height: 510px;
+        width: 100%;
+        grid-column: 1;
+        grid-row: 1/3;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .slogan {
+        padding: 0;
+        margin: auto;
+        line-height: 2.2rem;
+        font-size: 2.5rem;
+    }
+
+    .welcome-banner button {
+        width: 80%;
+    }
+
+    .button-styles {
+        /* font-size: 2.3rem; */
+    }
+
+    /* Logo Home */
+
+    .logo-big {
+        font-size: 2.5rem;
+        line-height: 2rem;
+        padding: 4.5rem 0rem;
+    }
+
+}
+
+@media only screen and (min-width: 963px) {
+
 
     .footer-grid {
         display: grid;
@@ -139,8 +195,13 @@
         gap: 1rem;
     }
 
+    address {
+        text-align: left;
+    }
+
     .logo-small {
         padding: 2rem;
         margin: 0 0 3rem 0;
     }
+    
 }

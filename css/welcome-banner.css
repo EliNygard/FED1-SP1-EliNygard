@@ -1,0 +1,36 @@
+.banner-bg {
+    background-color: var(--theme-color-orange);
+}
+
+.welcome-banner {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+    margin: auto;
+}
+
+.welcome-banner img {
+    width: 95%;
+    padding: 0;
+    margin: auto;
+    object-fit: fill;
+    border-radius: 3px;
+}
+
+.slogan {
+    padding: 1.5rem;
+    margin: 0;
+    line-height: 1.8rem;
+    font-size: 2rem;
+}
+
+.welcome-banner button {
+    margin: 2rem auto;
+    background-color: var(--theme-color-green);
+    color: var(--theme-color-dark);
+}
+

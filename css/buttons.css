@@ -1,25 +1,57 @@
+/* button {
+    border-style: none;
+    border-radius: 3px;
+    font-family: Marvel;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.4rem;
+    min-height: 3rem;
+    padding: 1rem 6rem;
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--theme-color-grey);
+    color: var(--theme-color-light);
+    cursor: pointer;
+} */
+
 button {
     border-style: none;
-    width: 264px;
-    height: 48px;
     border-radius: 3px;
     font-family: Marvel;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.4rem;
+    min-height: 3rem;
+    min-width: 17rem;
     padding: 0;
+    margin: auto;
+    background-color: var(--theme-color-grey);
+    color: var(--theme-color-light);
+    cursor: pointer;
+    transition: background-color;
+    transition-duration: .5s;
 }
+
+.button-styles {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 nav button {
     background-color: var(--theme-color-grey);
     color: var(--theme-color-light);
+    transition: background-color;
+    transition-duration: .5s;
 }
 
-nav button:hover {
+button:hover {
     background-color: #686D6C;
-    color: black;
-    /*add transition*/
 } 
+
+
 
 .button-category {
     text-transform: none;

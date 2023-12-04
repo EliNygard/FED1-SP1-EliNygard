@@ -15,7 +15,7 @@
 
 .event-item-1, .event-item-2, .event-item-3 {
     width: 275px;
-    height: 617px;
+    height: 570px;
     border: 2px solid;
     border-radius: 3px;
     padding: 1rem;
@@ -40,13 +40,17 @@
     object-fit: cover;
 }
 
+.special-events h2 {
+    padding: .5rem 0 1rem 0;
+}
+
 .special-events h3 {
     font-size: 1.3rem;
     padding: .8rem 0 .5rem 0;
 }
 
 .event-date {
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .snaps-inline {

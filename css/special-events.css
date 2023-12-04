@@ -1,10 +1,12 @@
 .special-events {
     background-color: var(--theme-color-blue);
+    padding: 1rem;
 }
 
 .scroller {}
 
 .event-item {
     border: 2px solid var(--theme-color-red);
+    padding: 1rem;
 }
 

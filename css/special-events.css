@@ -3,10 +3,58 @@
     padding: 1rem;
 }
 
-.scroller {}
+.scroller {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 85%;
+    padding: 0;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
 
-.event-item {
-    border: 2px solid var(--theme-color-red);
+.event-item-1, .event-item-2, .event-item-3 {
+    width: 275px;
+    height: 617px;
+    border: 2px solid;
+    border-radius: 3px;
     padding: 1rem;
+    /* display: flex; */
+}
+
+.event-item-1 {
+    border-color: var(--theme-color-red);
+}
+
+.event-item-2 {
+    border-color: var(--theme-color-yellow);
+}
+
+.event-item-3 {
+    border-color: var(--theme-color-orange);
+}
+
+.event-item-1, .event-item-2, .event-item-3, img {
+    inline-size: 100%;
+    aspect-ratio: 1.5 / 1;
+    object-fit: cover;
+}
+
+.special-events h3 {
+    font-size: 1.3rem;
+    padding: .8rem 0 .5rem 0;
+}
+
+.event-date {
+    padding-top: 3rem;
+}
+
+.snaps-inline {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 1rem;
+}
+
+.snaps-inline > * {
+    scroll-snap-align: start;
 }
 

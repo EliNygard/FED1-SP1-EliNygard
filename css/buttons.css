@@ -33,6 +33,10 @@ button {
     transition-duration: .5s;
 }
 
+.button-short {
+    min-width: 10rem;
+}
+
 .button-styles {
     display: inline-flex;
     justify-content: center;

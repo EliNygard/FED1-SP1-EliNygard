@@ -23,7 +23,7 @@ thead th{
 }
 
 td, th {
-    padding-right: 0rem;
+    padding: 0;
 }
 
 address {

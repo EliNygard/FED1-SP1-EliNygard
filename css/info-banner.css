@@ -1,6 +1,0 @@
-.info-banner {
-    background-color: var(--theme-color-red);
-    display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 2;
-}

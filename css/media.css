@@ -156,10 +156,11 @@
     }
     
     .info-item-2 {
-        grid-column: 2;
+        grid-column: 2/4;
         grid-row: 1;
         justify-self: self-start;
-        align-self: center;
+        align-self: self-start;
+        margin-left: 1rem;
     }
     
     .info-item-3 {
@@ -167,6 +168,7 @@
         grid-row: 2;
         justify-self: self-start;
         align-self: self-end;
+        margin-left: 1rem;
         font-size: 120%;
     }
     

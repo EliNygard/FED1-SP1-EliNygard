@@ -1,0 +1,10 @@
+.special-events {
+    background-color: var(--theme-color-blue);
+}
+
+.scroller {}
+
+.event-item {
+    border: 2px solid var(--theme-color-red);
+}
+

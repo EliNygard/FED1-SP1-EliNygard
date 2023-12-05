@@ -2,6 +2,14 @@
     .hide-on-mobile {
         display: none;
     }
+
+    .welcome-banner img {
+        order: 0;
+    }
+    
+    .slogan {
+        order: -1;
+    }
 }
 
 
@@ -142,11 +150,24 @@
         padding: 4.5rem;
     }
 
-    .info-banner img {
+    /* .info-banner img {
         max-width: 480px;
         max-height: 338px;
         width: 100%;
         object-fit: cover;
+    } */
+
+    .info-item-1 {
+        order: -1;
+        display: flex;
+        position: relative;
+    }
+    
+    .info-item-1 img {
+        display: block;
+        width: 100%;
+        max-height: 21rem;
+        /* max-width: 30rem; */
     }
     
     .info-item-1 {
@@ -257,6 +278,14 @@
     .logo-small {
         padding: 2rem;
         margin: 0 0 3rem 0;
+    }
+
+    /*Special Events*/
+
+    .scroller {
+        gap: 1rem;
+        grid-auto-columns: 19rem;
+        margin: auto;
     }
     
 }

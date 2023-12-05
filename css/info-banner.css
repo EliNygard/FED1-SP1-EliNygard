@@ -7,15 +7,15 @@
     /* grid-template-columns: 1fr;
     grid-template-rows: 20% 5% 1fr 10%; */
     gap: 1rem;
-    padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+    padding: 1.5rem .5rem 2.5rem .5rem;
 }
 
 .info-banner img {
     /* height: 100%;
     width: 100%; */
-    height: 253px;
+    /* height: 253px;
     aspect-ratio: 2.5/6;
-    object-fit: cover; 
+    object-fit: cover;  */
 }
 
 .info-item-2, 
@@ -25,6 +25,14 @@
 
 .info-item-1 {
     order: -1;
+    display: flex;
+    position: relative;
+}
+
+.info-item-1 img {
+    display: block;
+    width: 100%;
+    max-height: 30rem;
 }
 
 .info-item-2 {
@@ -34,11 +42,12 @@
 .info-item-3 {
     order: 0;
     font-size: 1.2rem;
+    padding-bottom: 1rem;
 }
 
 .info-item-4 {
     order: 2;
-    padding: 1rem;
+    padding: 0;
 }
 
 /* 

@@ -27,9 +27,3 @@
     font-size: 2rem;
 }
 
-.welcome-banner button {
-    margin: 2rem auto;
-    background-color: var(--theme-color-green);
-    color: var(--theme-color-dark);
-}
-

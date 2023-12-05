@@ -43,7 +43,6 @@ button {
     align-items: center;
 }
 
-
 nav button {
     background-color: var(--theme-color-grey);
     color: var(--theme-color-light);
@@ -55,8 +54,6 @@ button:hover {
     background-color: #686D6C;
 } 
 
-
-
 .button-category {
     text-transform: none;
     background-color:transparent;
@@ -64,14 +61,28 @@ button:hover {
     font-weight: normal;
     text-align: left;
     border: 3px solid transparent;
-    height: 40px;
+    height: 2.5rem;
 }
 
 .button-category:hover {
-    border: 3px solid var(--theme-color-turq);
+    border: 3px solid var(--theme-color-green);
     background-color: transparent;
     /*add transition*/
 }
 
+.welcome-banner button {
+    margin: 2rem auto;
+    background-color: var(--theme-color-green);
+    color: var(--theme-color-dark);
+}
 
-
+.info-item-1 button {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 0 .5rem 0;
+    background-color: var(--theme-color-green);
+    color: var(--theme-color-dark);
+}

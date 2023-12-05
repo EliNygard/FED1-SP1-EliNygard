@@ -1,25 +1,27 @@
 .special-events {
     background-color: var(--theme-color-blue);
-    padding: 1rem;
+    padding: .5rem;
+    margin: auto;
 }
 
 .scroller {
     display: grid;
-    gap: 1rem;
+    gap: .5rem;
     grid-auto-flow: column;
-    grid-auto-columns: 85%;
+    grid-auto-columns: 17rem;
     padding: 0;
     overflow-x: auto;
     overscroll-behavior-inline: contain;
 }
 
 .event-item-1, .event-item-2, .event-item-3 {
-    width: 275px;
-    height: 570px;
+    display: flex;
+    flex-direction: column;
     border: 2px solid;
     border-radius: 3px;
-    padding: 1rem;
-    /* display: flex; */
+    padding: .5rem;
+    height: 32rem;
+    max-width: 23rem;
 }
 
 .event-item-1 {
@@ -38,6 +40,7 @@
     inline-size: 100%;
     aspect-ratio: 1.5 / 1;
     object-fit: cover;
+    order: -2;
 }
 
 .special-events h2 {
@@ -49,8 +52,13 @@
     padding: .8rem 0 .5rem 0;
 }
 
+.special-events p {
+    padding: .5rem 0 0 0;
+    font-size: .9rem;
+}
+
 .event-date {
-    padding-top: 2rem;
+    margin-top: auto;           /*why doesn't align-self or -items work*/
 }
 
 .snaps-inline {

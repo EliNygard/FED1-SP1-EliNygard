@@ -43,11 +43,14 @@ button {
     align-items: center;
 }
 
-nav button {
+.dropdown-button {
     background-color: var(--theme-color-grey);
     color: var(--theme-color-light);
+    font-size: 1.2rem;
     transition: background-color;
     transition-duration: .5s;
+    min-height: 2rem;
+    max-width: 14rem;
 }
 
 button:hover {
@@ -58,10 +61,11 @@ button:hover {
     text-transform: none;
     background-color:transparent;
     color: var(--theme-color-dark);
+    font-size: 1rem;
     font-weight: normal;
     text-align: left;
     border: 3px solid transparent;
-    height: 2.5rem;
+    height: 2rem;
 }
 
 .button-category:hover {

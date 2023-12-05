@@ -18,7 +18,8 @@ header nav,
     top: 3.2rem;
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 90vw;
+    right: 1px;
 }
 
 .dropdown ul {
@@ -39,10 +40,17 @@ header nav,
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: minmax(auto, auto);
-    gap: 1rem;
+    gap: .5rem;
     margin: auto;
-    padding: 3rem;
+    padding: 2rem 0 .5rem .5rem;
+    position: relative;
+    right: 7px;
 }
+
+/* .dropdown-item-3, .dropdown-item-4, .dropdown-item-5,
+.dropdown-item-7, .dropdown-item-8 {
+    padding: .5rem;
+} */
 
 
 

@@ -210,6 +210,61 @@
 
 }
 
+@media only screen and (min-width: 848px) {
+        /*Special Events*/
+
+        .special-events {
+            padding: 4.5rem;
+        }
+
+        /* .scroller {
+            display: inline-flex;
+            gap: 1rem;
+            margin: auto;
+        } */
+
+        .event-item-1, .event-item-2, .event-item-3 {
+            height: 41rem;
+            width: 100%;
+        }
+    
+        .scroller {
+            display: grid;
+            gap: .5rem;
+            grid-auto-flow: column;
+            grid-auto-columns: 23rem;
+            padding: 0;
+            overflow-x: auto;
+            overscroll-behavior-inline: contain;
+        }
+
+        .event-item-1, .event-item-2, .event-item-3 {
+            padding: 1rem;
+            width: 100%;
+        }
+
+        .special-events h2 {
+            font-size: 2.3rem;
+            padding: 0 0 1rem 0;
+        }
+        
+        .special-events h3 {
+            padding: .8rem 0 .5rem 0;
+            font-size: 2rem;
+        }
+        
+        .special-events p {
+            padding: .5rem 0 0 0;
+            font-size: 1.1rem;
+        }
+        
+        .event-date {
+            margin-top: auto;           /*why doesn't align-self or -items work*/
+        }
+
+
+}
+
 @media only screen and (min-width: 963px) {
 
 
@@ -280,12 +335,6 @@
         margin: 0 0 3rem 0;
     }
 
-    /*Special Events*/
 
-    .scroller {
-        gap: 1rem;
-        grid-auto-columns: 19rem;
-        margin: auto;
-    }
     
 }

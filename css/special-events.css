@@ -1,4 +1,5 @@
 .special-events {
+    max-width: 1280px;
     background-color: var(--theme-color-blue);
     padding: .5rem;
     margin: auto;
@@ -21,7 +22,7 @@
     border-radius: 3px;
     padding: .5rem;
     height: 32rem;
-    max-width: 23rem;
+    max-width: 20rem;
 }
 
 .event-item-1 {
@@ -41,6 +42,10 @@
     aspect-ratio: 1.5 / 1;
     object-fit: cover;
     order: -2;
+}
+
+.special-events > h2, h3 {
+    font-weight: normal;
 }
 
 .special-events h2 {

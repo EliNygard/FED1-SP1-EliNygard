@@ -41,13 +41,23 @@
 
     /* Dropdown Menu */
 
+    .dropdown nav {
+        position: absolute;
+        background-color: var(--theme-color-orange);
+        top: 72px;
+        margin: auto;
+        padding: 0;
+        width: 100vw;
+        left: auto;
+    }
+
     .dropdown-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: minmax(auto, auto);
+        max-width: 600px;
         gap: 1rem;
-        margin: auto;
-        padding: 3rem;
+        padding: 2rem 0;
      }
 
      .dropdown-item-1 {

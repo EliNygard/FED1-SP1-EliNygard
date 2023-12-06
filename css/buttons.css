@@ -65,13 +65,17 @@ button:hover {
     font-weight: normal;
     text-align: left;
     border: 3px solid transparent;
-    height: 2rem;
+    min-height: 1.5rem;
 }
 
 .button-category:hover {
     border: 3px solid var(--theme-color-green);
     background-color: transparent;
     /*add transition*/
+}
+
+.button-category i {
+    padding-left: .5rem;
 }
 
 .welcome-banner button {

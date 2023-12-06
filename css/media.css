@@ -231,6 +231,22 @@
 
 @media only screen and (min-width: 1000px) {
 
+    /*Dropdown Menu*/
+
+    .dropdown-button {
+        min-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+
+    .button-category {
+        min-height: 2rem;
+        font-size: 1.5rem;
+    }
+
+    /* .dropdown-grid {
+        left: 114px;
+    } */
+
     /*Info Banner*/
 
     .info-banner {
@@ -331,7 +347,7 @@
         
         .special-events h3 {
             padding: .8rem 0 .5rem 0;
-            font-size: 2rem;
+            font-size: 1.4rem;
         }
         
         .special-events p {

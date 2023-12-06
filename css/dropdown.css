@@ -26,9 +26,9 @@ header nav,
     list-style: none;
 }
 
-.dropdown ul li {
+/* .dropdown ul li {
     padding-bottom: .3rem;
-}
+} */
 
 .dropdown ul li a span {
     color: var(--theme-color-dark);
@@ -41,16 +41,16 @@ header nav,
     grid-template-columns: 1fr;
     grid-template-rows: minmax(auto, auto);
     justify-items: center;
-    gap: .5rem;
+    gap: .8rem;
     margin: auto;
-    padding: 2rem .5rem .5rem .5rem;
+    padding: 1rem .5rem .5rem .5rem;
     position: relative;
 }
 
-/* .dropdown-item-3, .dropdown-item-4, .dropdown-item-5,
+.dropdown-item-3, .dropdown-item-4, .dropdown-item-5, /*i tilfelle de trenger styling, hvis ikke slett*/
 .dropdown-item-7, .dropdown-item-8 {
-    padding: .5rem;
-} */
+
+}
 
 
 

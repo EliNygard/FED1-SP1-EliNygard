@@ -1,13 +1,22 @@
-.exh-item-1, .exh-item-2, .exh-item-3,
-.exh-item-4, .exh-item-5 {
+.exh-item {
     display: flex;
     flex-direction: column;
-    padding: .5rem;
+    padding: 1rem .7rem;
+    margin: 0;
+
 }
 
-.exh-item-1, .exh-item-2, .exh-item-3,
-.exh-item-4, .exh-item-5, p {
-    padding-top: .5rem;
+.exh-item h2 {
+    padding-top: 1rem;
+    text-transform: uppercase;
+}
+
+.exh-item p {
+    padding-top: .7rem;
+}
+
+.exh-item > img {
+    aspect-ratio: 2.7 / 2;
 }
 
 .exh-item-1 {

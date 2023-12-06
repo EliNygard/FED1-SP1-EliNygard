@@ -39,7 +39,7 @@
         padding: 4rem 0;
     }
 
-    /* Dropdown Menu */
+    /*--Dropdown Menu */
 
     .dropdown nav {
         position: absolute;
@@ -110,7 +110,9 @@
         grid-row: 2;
     }
 
-    /* Welcome Banner */
+    /*Home*/
+
+    /*--Welcome Banner*/
 
     .welcome-banner {
         display: grid;
@@ -146,7 +148,7 @@
         /* font-size: 2.3rem; */
     }
 
-    /* Logo Home */
+    /*--Logo Home */
 
     .logo-big {
         font-size: 2.5rem;
@@ -154,7 +156,7 @@
         padding: 4.5rem 0rem;
     }
 
-    /*Info Banner*/
+    /*--Info Banner*/
 
     .info-banner {
         display: grid;
@@ -221,7 +223,7 @@
         font-size: 1.3rem;
     }
 
-    /*Special Events*/
+    /*--Special Events*/
 
     .special-events {
         padding: 1rem;
@@ -247,7 +249,9 @@
         left: 114px;
     } */
 
-    /*Info Banner*/
+
+    /*Home*/
+    /*--Info Banner*/
 
     .info-banner {
         display: grid;
@@ -307,7 +311,7 @@
     }    
     
     
-    /*Special Events*/
+    /*--Special Events*/
 
         .special-events {
             padding: 4.5rem;
@@ -358,6 +362,34 @@
         .event-date {
             margin-top: auto;           /*why doesn't align-self or -items work*/
         }
+
+    /*Exhibitions*/
+
+    .exh-item {
+        padding: 1rem .7rem;
+        margin: 0;
+    }
+
+    .grid-left {
+
+    }
+
+    .grid-right {
+        
+    }
+    
+    .exh-item h2 {
+        padding-top: 1rem;
+        text-transform: uppercase;
+    }
+    
+    .exh-item p {
+        padding-top: .7rem;
+    }
+    
+    .exh-item > img {
+        aspect-ratio: 2.7 / 2;
+    }
 
 
 }

@@ -285,6 +285,20 @@
 
 
     /*Home*/
+
+    /*--Welcome Banner*/
+    
+    .slogan {
+        font-size: 3.5rem;
+        line-height: 3.2rem;
+    }
+
+    .welcome-banner a{
+        width: 330px;
+        height: 60px;
+        font-size: 1.6rem;
+    }
+    
     /*--Info Banner*/
 
     .info-banner {
@@ -364,9 +378,7 @@
     
         .scroller {
             display: flex;
-            gap: .5rem;
-            grid-auto-flow: column;
-            grid-auto-columns: 23rem;
+            gap: 1rem;
             padding: 0;
             overflow-x: hidden;
             overscroll-behavior-inline:none;

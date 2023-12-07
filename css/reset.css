@@ -18,3 +18,7 @@ body {
 img {
     border-radius: 3px;
 }
+
+.container {
+    margin: auto;
+}

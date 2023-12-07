@@ -1,5 +1,6 @@
 .exhibitions {
     max-width: 1440px;
+    margin: auto;
 }
 
 .exh-item {

@@ -10,6 +10,10 @@
     .slogan {
         order: -1;
     }
+
+    .info-banner img {
+        height: 250px;
+    }
 }
 
 

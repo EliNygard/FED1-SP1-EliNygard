@@ -39,7 +39,7 @@
         padding: 4rem 0;
     }
 
-    /*--Dropdown Menu */
+    /*Dropdown Menu */
 
     .dropdown nav {
         position: absolute;
@@ -180,7 +180,7 @@
         position: relative;
     }
     
-    .info-item-1 > img {
+    .info-item-1 img {
         display: block;
         width: 100%;
         max-height: 14rem;
@@ -229,6 +229,26 @@
         padding: 1rem;
     }
 
+    /*Headings*/
+
+    .heading h1 {
+        font-size: 2rem;
+    }
+
+    /*Exhibitions*/
+
+    .exh-item {
+        padding: 1rem 3rem;
+    }
+
+    .exh-item-1 img, .exh-item-2 img, 
+    .exh-item-3 img, .exh-item-4 img, .exh-item-5 img {
+        order: 1;
+        padding: 1rem 0;
+        object-fit: cover;
+    }
+
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -275,7 +295,7 @@
         position: relative;
     }
     
-    .info-item-1 > img {
+    .info-item-1 img {
         display: block;
         width: 100%;
         max-height: 20rem;
@@ -363,20 +383,36 @@
             margin-top: auto;           /*why doesn't align-self or -items work*/
         }
 
+    /*Headings*/
+
+    .heading {
+        padding: 3rem 0 2rem 0;
+    }
+
+    .heading > h1 {
+        font-size: 2.5rem;
+    }
+
     /*Exhibitions*/
 
     .exh-item {
-        padding: 1rem .7rem;
+        padding: 2rem 3rem;
         margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
-    .grid-left {
-
+    .exh-item-1 img, .exh-item-3 img, .exh-item-5 img {
+        order: 1;
+        padding-left: 3rem;
     }
 
-    .grid-right {
-        
+    .exh-item-2 img, .exh-item-4 img {
+        order: 0;
+        padding-right: 3rem;
     }
+
     
     .exh-item h2 {
         padding-top: 1rem;
@@ -387,8 +423,13 @@
         padding-top: .7rem;
     }
     
-    .exh-item > img {
+    .exh-item img {
         aspect-ratio: 2.7 / 2;
+        max-width: 425px;
+    }
+
+    .exh-item > div {
+        max-width: 667px;
     }
 
 

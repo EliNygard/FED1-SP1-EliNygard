@@ -3,7 +3,6 @@
     flex-direction: column;
     padding: 1rem .7rem;
     margin: 0;
-
 }
 
 .exh-item h2 {
@@ -15,10 +14,26 @@
     padding-top: .7rem;
 }
 
-.exh-item > img {
+.exh-item img {
     aspect-ratio: 2.7 / 2;
 }
 
 .exh-item-1 {
     background-color: var(--theme-color-green);
+}
+
+.exh-item-2 {
+    background-color: var(--theme-color-red);
+}
+
+.exh-item-3 {
+    background-color: var(--theme-color-blue);
+}
+
+.exh-item-4 {
+    background-color: var(--theme-color-yellow);
+}
+
+.exh-item-5 {
+    background-color: var(--theme-color-purple);
 }

@@ -43,7 +43,7 @@
     border-color: var(--theme-color-orange);
 }
 
-.event-item-1, .event-item-2, .event-item-3, img {
+.event-item-1 img, .event-item-2 img, .event-item-3 img {
     inline-size: 100%;
     aspect-ratio: 1.5 / 1;
     object-fit: cover;

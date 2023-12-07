@@ -18,7 +18,7 @@
     object-fit: cover;
 }
 
-.info-item-1 button {
+.info-item-1 span {
     z-index: 2;
     position: absolute;
     bottom: 0;

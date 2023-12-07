@@ -241,11 +241,15 @@
         padding: 1rem 3rem;
     }
 
-    .exh-item-1 img, .exh-item-2 img, 
-    .exh-item-3 img, .exh-item-4 img, .exh-item-5 img {
+    .exh-item img {
         order: 1;
-        padding: 1rem 0;
-        object-fit: cover;
+        padding: 1.5rem 0;
+        width: 600px;
+    }
+
+    .exh-item div, .exh-item img {
+        max-width: 600px;
+        margin: auto;
     }
 
 
@@ -405,18 +409,19 @@
 
     .exh-item-1 img, .exh-item-3 img, .exh-item-5 img {
         order: 1;
-        padding-left: 3rem;
+        padding: 0 0 0 3rem;
     }
 
     .exh-item-2 img, .exh-item-4 img {
         order: 0;
-        padding-right: 3rem;
+        padding: 0 3rem 0 0 ;
     }
 
     
     .exh-item h2 {
         padding-top: 1rem;
         text-transform: uppercase;
+        padding: 0;
     }
     
     .exh-item p {
@@ -426,10 +431,12 @@
     .exh-item img {
         aspect-ratio: 2.7 / 2;
         max-width: 425px;
+        margin: 0;
     }
 
-    .exh-item > div {
+    .exh-item div {
         max-width: 667px;
+        margin: 0;
     }
 
 

@@ -54,7 +54,7 @@ button {
     transition-duration: .5s;
 }
 
-button:hover {
+.button:hover {
     background-color: #686D6C;
 } 
 

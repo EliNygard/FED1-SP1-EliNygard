@@ -1,5 +1,5 @@
 .info-banner {
-    max-width: 1280px;
+    max-width: 1000px;
     margin: auto;
     background-color: var(--theme-color-red);
     display: flex;

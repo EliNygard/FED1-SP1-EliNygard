@@ -52,7 +52,8 @@
         margin: auto;
         padding: 0;
         width: 100vw;
-        left: auto;
+        /* left: auto; */
+        right: 0;
     }
 
     .dropdown-grid {
@@ -62,6 +63,7 @@
         max-width: 600px;
         gap: 1rem;
         padding: 2rem 0;
+        margin: auto;
      }
 
      .dropdown-item-1 {
@@ -262,6 +264,10 @@
 @media only screen and (min-width: 1000px) {
 
     /*Dropdown Menu*/
+
+    .dropdown > nav {
+        right: 0px;
+    }
 
     .dropdown-button {
         min-height: 2.5rem;

@@ -15,22 +15,24 @@
     cursor: pointer;
 } */
 
-button {
-    border-style: none;
+.button {
     border-radius: 3px;
     font-family: Marvel;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.4rem;
-    min-height: 3rem;
-    min-width: 17rem;
-    padding: 0;
-    margin: auto;
+    font-size: 1.2rem;
+    display: inline-flex;
+    height: 40px;
+    width: 264px;
+    align-items: center;
+    justify-content: center;
     background-color: var(--theme-color-grey);
     color: var(--theme-color-light);
     cursor: pointer;
     transition: background-color;
     transition-duration: .5s;
+    margin: 0;
+    padding: 0;
 }
 
 .button-short {
@@ -44,13 +46,8 @@ button {
 }
 
 .dropdown-button {
-    background-color: var(--theme-color-grey);
-    color: var(--theme-color-light);
-    font-size: 1.2rem;
     transition: background-color;
     transition-duration: .5s;
-    min-height: 2rem;
-    max-width: 14rem;
 }
 
 button:hover {
@@ -64,8 +61,11 @@ button:hover {
     font-size: 1rem;
     font-weight: normal;
     text-align: left;
+    justify-content: start;
     border: 3px solid transparent;
-    min-height: 1.5rem;
+    height: 20px;
+    margin: 0;
+    padding: .5rem;
 }
 
 .button-category:hover {
@@ -76,12 +76,6 @@ button:hover {
 
 .button-category i {
     padding-left: .5rem;
-}
-
-.welcome-banner button {
-    margin: 2rem auto;
-    background-color: var(--theme-color-green);
-    color: var(--theme-color-dark);
 }
 
 .info-item-1 button {

@@ -6,7 +6,7 @@ footer {
 }
 
 footer ul {
-    max-width: 1280px;
+    max-width: 1000px;
     margin: auto;       /*DRY gjelder også header og main*/
     padding: 0;
 }

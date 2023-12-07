@@ -15,6 +15,10 @@
     cursor: pointer;
 } */
 
+button {
+    border-style: none;
+}
+
 .button {
     border-radius: 3px;
     font-family: Marvel;
@@ -36,7 +40,7 @@
 }
 
 .button-short {
-    min-width: 10rem;
+    width: 140px;
 }
 
 .button-styles {
@@ -78,13 +82,4 @@ button:hover {
     padding-left: .5rem;
 }
 
-.info-item-1 button {
-    z-index: 2;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0 0 .5rem 0;
-    background-color: var(--theme-color-green);
-    color: var(--theme-color-dark);
-}
+

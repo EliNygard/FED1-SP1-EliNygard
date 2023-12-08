@@ -1,0 +1,37 @@
+.contribute {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.join {
+    background-color: var(--theme-color-light);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem .5rem;
+    gap: 2rem;
+}
+
+.volunteer {
+    border: 3px solid var(--theme-color-purple);
+}
+
+.intern {
+    border: 3px solid var(--theme-color-red);
+}
+
+.volunteer, .intern {
+    padding: .7rem 1.1rem;
+    flex: 1;
+}
+
+.join h2 {
+    padding-top: .5rem;
+}
+
+.join p {
+    padding-top: 1rem;
+}
+
+.contribute div {
+    padding: 2rem 0 1rem 0;
+}

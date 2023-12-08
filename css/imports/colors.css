@@ -1,13 +1,13 @@
-.color-blue {
- bg-   background-color: var(--theme-color-blue)
+.bg-color-blue {
+    background-color: var(--theme-color-blue);
 }
 
 .bg-color-orange {
-    background-color: var(--theme-color-orange)
+    background-color: var(--theme-color-orange);
 }
 
 .bg-color-red {
-    background-color: var(--theme-color-red)
+    background-color: var(--theme-color-red);
 }
 
 .bg-color-green {
@@ -19,21 +19,21 @@
 }
 
 .bg-color-purple {
-    background-color: var(--theme-color-purple)
+    background-color: var(--theme-color-purple);
 }
 
 .bg-color-turq {
-    background-color: var(--theme-color-turq)
+    background-color: var(--theme-color-turq);
 }
 
 .bg-color-light {
-    background-color: var(--theme-color-light)
+    background-color: var(--theme-color-light);
 }
 
 .bg-color-dark {
-    background-color: var(--theme-color-dark)
+    background-color: var(--theme-color-dark);
 }
 
 .bg-color-grey {
-    background-color: var(--theme-color-grey)
+    background-color: var(--theme-color-grey);
 }

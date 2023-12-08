@@ -14,13 +14,14 @@
 @import url("./css/logo.css");
 @import url("./css/headings.css");
 
-/*Home*/
 @import url("./css/welcome-banner.css");
 @import url("./css/info-banner.css");
 @import url("./css/special-events.css");
 
-/*Exhibitions*/
 @import url("./css/exhibitions.css");
+
+@import url("./css/contribute.css");
+
 
 
 /*media*/

@@ -1,5 +1,7 @@
 .logo-container {
     background-color: var(--theme-color-light);
+    max-width: 1440px;
+    margin: auto;
 }
 
 .logo, .logo-small, .logo-medium, .logo-big {

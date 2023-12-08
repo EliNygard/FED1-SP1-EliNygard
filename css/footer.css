@@ -26,6 +26,10 @@ td, th {
     padding: 0;
 }
 
+tbody tr td:first-child {
+    padding-right: .8rem;
+}
+
 address {
     font-style: normal;
     text-align: center;
@@ -36,22 +40,14 @@ address span {
 }
 
 .footer-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto, auto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 1rem;
-}
-
-.footer-item-1, .footer-item-2, 
-.footer-item-3, .footer-item-4, 
-.footer-item-5, .footer-item-6, 
-.footer-item-7 {
-    grid-column: 1;
-    justify-self: center;
-    align-self: end;
 }
 
 .footer-item-7 {
     display: inline-flex;
     gap: 1rem;
+    font-size: 1rem;
 }

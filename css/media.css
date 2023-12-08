@@ -13,6 +13,8 @@
 
     .info-banner img {
         height: 250px;
+        max-width: 300px;
+        margin: auto;
     }
 }
 
@@ -20,11 +22,15 @@
 @media only screen and (min-width: 767px) {
     
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+
+    h3 {
+
     }
     
     p {
@@ -238,7 +244,7 @@
     /*Headings*/
 
     .heading {
-        font-size: 2rem;
+
     }
 
     /*Exhibitions*/
@@ -261,213 +267,11 @@
 
 }
 
-@media only screen and (min-width: 1000px) {
-
-    /*Dropdown Menu*/
-
-    .dropdown > nav {
-        right: 0px;
-    }
-
-    .dropdown-button {
-        min-height: 2.5rem;
-        font-size: 1.5rem;
-    }
-
-    .button-category {
-        min-height: 2rem;
-        font-size: 1.5rem;
-    }
-
-    /* .dropdown-grid {
-        left: 114px;
-    } */
-
-
-    /*Home*/
-
-    /*--Welcome Banner*/
-    
-    .slogan {
-        font-size: 3.5rem;
-        line-height: 3.2rem;
-    }
-
-    .welcome-banner a{
-        width: 330px;
-        height: 60px;
-        font-size: 1.6rem;
-    }
-    
-    /*--Info Banner*/
-
-    .info-banner {
-        display: grid;
-        grid-template-columns: 45% 30% 1fr;
-        grid-template-rows: 1fr 20%;
-        gap: 2rem;
-        padding: 4.5rem;
-        margin: auto;
-    }
-
-    /* .info-banner img {
-        max-width: 480px;
-        max-height: 338px;
-        width: 100%;
-        object-fit: cover;
-    } */
-
-    .info-item-1 {       /*DRY*/
-        order: -1;
-        display: flex;
-        position: relative;
-    }
-    
-    .info-item-1 img {
-        display: block;
-        width: 100%;
-        max-height: 20rem;
-    }
-    
-    .info-item-1 {
-        grid-column: 1;
-        grid-row: span 2;
-        justify-content: start;
-    }
-    
-    .info-item-2 {
-        grid-column: 2/4;
-        grid-row: 1;
-        justify-self: self-start;
-        align-self: self-start;
-    }
-    
-    .info-item-3 {
-        grid-column: 2;
-        grid-row: 2;
-        justify-self: self-start;
-        align-self: self-end;
-        font-size: 1.2rem;
-        margin: 0;
-    }
-    
-    .info-item-4 {
-        grid-column: 3;
-        grid-row: 1/3;                        /*DRY*/
-        justify-self: center;       
-        align-self: center;
-    }    
-    
-    
-    /*--Special Events*/
-
-        .special-events {
-            padding: 4.5rem;
-        }
-
-        /* .scroller {
-            display: inline-flex;
-            gap: 1rem;
-            margin: auto;
-        } */
-
-        .event-item-1, .event-item-2, .event-item-3 {
-            height: 41rem;
-            width: 100%;
-        }
-    
-        .scroller {
-            display: flex;
-            gap: 1rem;
-            padding: 0;
-            overflow-x: hidden;
-            overscroll-behavior-inline:none;
-        }
-
-        .event-item-1, .event-item-2, .event-item-3 {
-            padding: 1rem;
-            width: 278px;
-            flex-grow: 1;
-        }
-
-        .special-events h2 {
-            font-size: 2.3rem;
-            padding: 0 0 1rem 0;
-        }
-        
-        .special-events h3 {
-            padding: .8rem 0 .5rem 0;
-            font-size: 1.4rem;
-        }
-        
-        .special-events p {
-            padding: .5rem 0 0 0;
-            font-size: 1.1rem;
-        }
-        
-        .event-date {
-            margin-top: auto;           /*why doesn't align-self or -items work*/
-        }
-
-    /*Headings*/
-
-    .heading {
-        padding: 3rem 0 2rem 0;
-        font-size: 2.5rem;
-    }
-
-
-    /*Exhibitions*/
-
-    .exh-item {
-        padding: 2rem 3rem;
-        margin: 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .exh-item-1 img, .exh-item-3 img, .exh-item-5 img {
-        order: 1;
-        padding: 0 0 0 3rem;
-    }
-
-    .exh-item-2 img, .exh-item-4 img {
-        order: 0;
-        padding: 0 3rem 0 0 ;
-    }
-
-    
-    .exh-item h2 {
-        padding-top: 1rem;
-        text-transform: uppercase;
-        padding: 0;
-    }
-    
-    .exh-item p {
-        padding-top: .7rem;
-    }
-    
-    .exh-item img {
-        aspect-ratio: 2.7 / 2;
-        max-width: 425px;
-        margin: 0;
-    }
-
-    .exh-item div {
-        max-width: 667px;
-        margin: 0;
-    }
-
-
-}
-
-@media only screen and (min-width: 963px) {
-
+@media only screen and (min-width: 977px) {         /*Footer becomes grid*/
 
     .footer-grid {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: 20% 1fr 1fr 1fr 20%;
         grid-template-rows: repeat(4, auto);
         gap: 1rem;
     }
@@ -520,7 +324,8 @@
         grid-row: 4;
         justify-self: center;
         align-self: end;
-        gap: 1rem;
+        gap: 1.5rem;
+        font-size: 1.4rem;
     }
 
     address {
@@ -530,8 +335,203 @@
     .logo-small {
         padding: 2rem;
         margin: 0 0 3rem 0;
+        font-size: 1.3rem;
+        line-height: 1rem;
+    }
+ 
+}
+
+@media only screen and (min-width: 1000px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2.1rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+    
+    p {
+        font-size: 1.125rem;
+    }
+
+    /*Dropdown Menu*/
+
+    .dropdown > nav {
+        right: 0px;
+    }
+
+    .dropdown-button {
+        min-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+
+    .button-category {
+        min-height: 2rem;
+        font-size: 1.5rem;
+    }
+
+    /* .dropdown-grid {
+        left: 114px;
+    } */
+
+
+    /*Home*/
+
+    /*--Welcome Banner*/
+    
+    .slogan {
+        font-size: 3.5rem;
+        line-height: 3.2rem;
+    }
+
+    .welcome-banner a{
+        width: 330px;
+        height: 60px;
+        font-size: 1.6rem;
+    }
+    
+    /*--Info Banner*/
+
+    .info-banner {
+        display: grid;
+        grid-template-columns: 2fr 1.4fr 1fr;
+        grid-template-rows: 1fr 20%;
+        gap: 2rem;
+        padding: 4.5rem;
+        margin: auto;
+    }
+    
+    .info-item-1 {
+        grid-column: 1;
+        grid-row: span 2;
+        justify-content: start;
+    }
+
+    .info-item-1 img {
+        display: block;
+        width: 100%;
+        max-height: 20rem;
+        object-position: center;
+    }
+
+    .info-item-2, .info-item-3, .info-item-4 {
+        justify-self: center;
+    }
+    
+    .info-item-2 {
+        grid-column: 2;
+        grid-row: 1;
+        align-self: self-start;
+    }
+    
+    .info-item-3 {
+        grid-column: 2;
+        grid-row: 2;
+        align-self: self-end;
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    
+    .info-item-4 {
+        grid-column: 3;
+        grid-row: 1/3;                              
+        align-self: center;
+    }   
+    
+    .style-td > tr > td {
+        font-size: 1.125rem;
+    }
+    
+    
+    /*--Special Events*/
+
+    .special-events {
+        padding: 4.5rem;
+    }
+
+    .event-grid {
+        padding: 1.5rem;
+    }
+
+    .scroller {
+        gap: 1rem;
+        padding: 0;
+        grid-auto-columns: 1fr 1fr 1fr;
+        max-width: 1440px;
+        overflow-x: hidden;
+        overscroll-behavior-inline:none;
+    }
+    .special-events h2 {
+        padding: 0 0 1rem 0;
+    }
+    
+    .event-date {
+        margin-top: auto;           /*why doesn't align-self or -items work*/
     }
 
 
+    /*Headings*/
+
+    .heading {
+        padding: 3rem 0 2rem 0;
+    }
+
+
+    /*Exhibitions*/
+
+    .exh-item {
+        padding: 2rem 3rem;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .exh-item-1 img, .exh-item-3 img, .exh-item-5 img {
+        order: 1;
+        padding: 0 0 0 3rem;
+    }
+
+    .exh-item-2 img, .exh-item-4 img {
+        order: 0;
+        padding: 0 3rem 0 0 ;
+    }
+
     
+    .exh-item h2 {
+        padding-top: 1rem;
+        text-transform: uppercase;
+        padding: 0;
+    }
+    
+    .exh-item p {
+        padding-top: .7rem;
+    }
+    
+    .exh-item img {
+        aspect-ratio: 2.7 / 2;
+        max-width: 425px;
+        margin: 0;
+    }
+
+    .exh-item div {
+        max-width: 667px;
+        margin: 0;
+    }
+
+
 }
+
+@media only screen and (min-width: 1121px) {
+    footer {
+        font-size: 1rem;
+    }
+
+
+}
+

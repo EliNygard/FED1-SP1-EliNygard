@@ -28,10 +28,6 @@
     h2 {
         font-size: 1.8rem;
     }
-
-    h3 {
-
-    }
     
     p {
         font-size: 1.1rem;
@@ -49,6 +45,7 @@
         padding: 4rem 0;
     }
 
+    
     /*Dropdown Menu */
 
     .dropdown nav {
@@ -122,6 +119,7 @@
         grid-row: 2;
     }
 
+
     /*Home*/
 
     /*--Welcome Banner*/
@@ -156,9 +154,6 @@
         width: 80%;
     }
 
-    .button-styles {
-        /* font-size: 2.3rem; */
-    }
 
     /*--Logo Home */
 
@@ -167,6 +162,7 @@
         line-height: 2rem;
         padding: 4.5rem 0rem;
     }
+
 
     /*--Info Banner*/
 
@@ -178,13 +174,6 @@
         padding: 3rem;
         margin: auto;
     }
-
-    /* .info-banner img {
-        max-width: 480px;
-        max-height: 338px;
-        width: 100%;
-        object-fit: cover;
-    } */
 
     .info-item-1 {
         order: -1;
@@ -222,7 +211,7 @@
     
     .info-item-4 {
         grid-column: 2;
-        grid-row: 2;                        /*DRY*/
+        grid-row: 2;                      
         justify-self: center;       
         align-self: center;
     }
@@ -235,17 +224,13 @@
         font-size: 1.3rem;
     }
 
+
     /*--Special Events*/
 
     .special-events {
         padding: 1rem;
     }
 
-    /*Headings*/
-
-    .heading {
-
-    }
 
     /*Exhibitions*/
 
@@ -375,10 +360,6 @@
         font-size: 1.5rem;
     }
 
-    /* .dropdown-grid {
-        left: 114px;
-    } */
-
 
     /*Home*/
 
@@ -395,6 +376,7 @@
         font-size: 1.6rem;
     }
     
+
     /*--Info Banner*/
 
     .info-banner {
@@ -502,7 +484,6 @@
         padding: 0 3rem 0 0 ;
     }
 
-    
     .exh-item h2 {
         padding-top: 1rem;
         text-transform: uppercase;

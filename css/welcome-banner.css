@@ -1,10 +1,7 @@
-.banner-bg {
+.welcome-banner {
     background-color: var(--theme-color-orange);
     max-width: 1440px;
     margin: auto;
-}
-
-.welcome-banner {
     width: 100%;
     display: flex;
     flex-direction: column;

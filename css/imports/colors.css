@@ -1,39 +1,39 @@
 .color-blue {
-    color: var(--theme-color-blue)
+ bg-   background-color: var(--theme-color-blue)
 }
 
-.color-orange {
-    color: var(--theme-color-orange)
+.bg-color-orange {
+    background-color: var(--theme-color-orange)
 }
 
-.color-red {
-    color: var(--theme-color-red)
+.bg-color-red {
+    background-color: var(--theme-color-red)
 }
 
-.color-green {
-    color: var(--theme-color-green);
+.bg-color-green {
+    background-color: var(--theme-color-green);
 }
 
-.color-yellow {
-    color: var(--theme-color-yellow);
+.bg-color-yellow {
+    background-color: var(--theme-color-yellow);
 }
 
-.color-purple {
-    color: var(--theme-color-purple)
+.bg-color-purple {
+    background-color: var(--theme-color-purple)
 }
 
-.color-turq {
-    color: var(--theme-color-turq)
+.bg-color-turq {
+    background-color: var(--theme-color-turq)
 }
 
-.color-light {
-    color: var(--theme-color-light)
+.bg-color-light {
+    background-color: var(--theme-color-light)
 }
 
-.color-dark {
-    color: var(--theme-color-dark)
+.bg-color-dark {
+    background-color: var(--theme-color-dark)
 }
 
-.color-grey {
-    color: var(--theme-color-grey)
+.bg-color-grey {
+    background-color: var(--theme-color-grey)
 }

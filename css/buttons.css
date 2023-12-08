@@ -43,19 +43,13 @@ button {
     width: 140px;
 }
 
-.button-styles {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .dropdown-button {
     transition: background-color;
     transition-duration: .5s;
 }
 
 .button:hover {
-    background-color: #686D6C;
+    background-color: var(--hover-color-grey);
 } 
 
 .button-category {
@@ -80,6 +74,26 @@ button {
 
 .button-category i {
     padding-left: .5rem;
+}
+
+.info-item-1 span {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 0 .8rem 0;
+}
+
+.button-green {
+    background-color: var(--theme-color-green);
+    color: var(--theme-color-dark);
+    transition: background-color;
+    transition-duration: .5s;
+}
+
+.button-green:hover {
+    background-color: var(--hover-color-green);
 }
 
 

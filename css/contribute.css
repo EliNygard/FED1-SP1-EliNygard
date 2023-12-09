@@ -32,6 +32,22 @@
     padding-top: 1rem;
 }
 
-.contribute div {
+.volunteer > div, .intern > div {
     padding: 2rem 0 1rem 0;
 }
+
+.support-item-1, .support-item-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.support-item-e p:first-child, .support-item-f p:first-child {
+    padding-bottom: 1rem;
+}
+
+.support-item-e {
+    padding-bottom: 1rem;
+}
+

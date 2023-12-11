@@ -317,6 +317,15 @@
         height: 60px;
         font-size: 1.6rem;
     }
+
+
+    /*Logo*/
+
+    .logo-home {
+        font-size: 2rem;
+        line-height: 1.6rem;
+        padding: 3rem 0;
+    }
     
 
     /*--Info Banner*/
@@ -520,6 +529,35 @@
     }
 
 
+    /*Visit Us*/
+
+    .about {
+        display: grid;
+        grid-template-columns: 40% 1fr;
+        grid-template-rows: 1fr;
+        padding: 2rem 1.5rem;
+    }
+    
+    .about-item-1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .about-item-2 {
+        grid-column: 2;
+    }
+    
+    .about .logo {
+        padding: 0;
+        font-size: 2rem;
+        line-height: 1.6rem;
+    }
+    
+    .about-item-2 > p {
+        padding-bottom: 1rem;
+    }
+
+
     /*Footer*/
 
     footer {
@@ -589,7 +627,7 @@
         text-align: left;
     }
 
-    .logo-small {
+    .logo-footer {
         padding: 2rem;
         margin: 0 0 3rem 0;
         font-size: 1.3rem;

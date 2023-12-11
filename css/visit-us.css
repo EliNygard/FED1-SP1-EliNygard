@@ -1,4 +1,29 @@
-.page-container {
+.visit-us {
     max-width: 1440px;
     margin: auto;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem .5rem;
+    gap: 1rem;
+}
+
+.about-item-1 {
+    order: 0;
+}
+
+.about-item-2 {
+    order: -1;
+}
+
+.about .logo {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+}
+
+.about-item-2 > p {
+    padding-bottom: 1rem;
 }

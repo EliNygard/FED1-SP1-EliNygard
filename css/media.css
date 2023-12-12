@@ -533,7 +533,7 @@
 
     .about {
         display: grid;
-        grid-template-columns: 40% 1fr;
+        grid-template-columns: 25% 1fr;
         grid-template-rows: 1fr;
         padding: 2rem 1.5rem;
     }

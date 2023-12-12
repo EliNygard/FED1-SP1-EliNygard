@@ -27,3 +27,56 @@
 .about-item-2 > p {
     padding-bottom: 1rem;
 }
+
+.visit {
+    display: grid;
+    grid-template-columns: 30% 1fr 30%;
+}
+
+.visit-col-1, .visit-col-2, .visit-col-3 {
+    padding: 2rem 1.5rem;
+    display: inherit;
+    grid-template-rows: 5ch 10ch 25ch 10ch 10ch 10ch 10ch;
+    gap: 1rem;
+}
+
+.visit-item-a, .visit-item-e {
+    grid-row: 1;
+}
+
+.visit-item-f {
+    grid-row: 2;
+}
+
+.visit-item-b, .visit-item-g {
+    grid-row: 3;
+}
+
+.visit-item-c, .visit-item-h {
+    grid-row: 4;
+}
+
+.visit-item-d, .visit-item-k {
+    grid-row: 7;
+}
+
+.visit-item-i {
+    grid-row: 5;
+}
+
+.visit-item-l {
+    grid-row: 1;
+}
+
+.visit-item-j, .visit-item-m {
+    grid-row: 6;
+}
+
+
+.visit-col-1 h3 {
+    font-size: 1.4rem;
+}
+
+iframe {
+    width: 100%;
+}

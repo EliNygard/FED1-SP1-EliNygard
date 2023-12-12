@@ -680,6 +680,7 @@
         gap: 10rem;
         margin: auto;
         justify-content: center;
+        align-items: start;
     }
     
     .museum h2 {

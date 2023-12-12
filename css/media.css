@@ -265,6 +265,13 @@
         display: none;
     }
 
+
+    /*Visit Us*/
+
+    .visit-mobile-view table {
+        font-size: 1.1rem;
+    }
+
 }
 
 
@@ -533,7 +540,7 @@
 
     .about {
         display: grid;
-        grid-template-columns: 25% 1fr;
+        grid-template-columns: 30% 1fr;
         grid-template-rows: 1fr;
         padding: 2rem 1.5rem;
     }
@@ -555,6 +562,76 @@
     
     .about-item-2 > p {
         padding-bottom: 1rem;
+    }
+
+    .visit-mobile-view {
+        display: none;
+    }
+
+    .visit-desktop-view {
+        display: grid;
+        grid-template-columns: 30% 1fr 30%;
+        padding: 2rem 1.5rem;
+        gap: 0;
+    }
+    
+    .visit-col-1, .visit-col-2, .visit-col-3 {
+        padding: 2rem 1.5rem;
+        display: inherit;
+        grid-template-rows: 2rem 10rem 12rem 2rem 6rem 6rem 7rem;
+        gap: 1rem;
+    }
+
+    .visit-col-1 {
+        background-color: var(--theme-color-red);
+    }
+
+    .visit-col-2, .visit-col-3 {
+        background-color: var(--theme-color-purple);
+    }
+    
+    .visit-item-a, .visit-item-e {
+        grid-row: 1;
+    }
+
+    .visit-item-b, .visit-item-g {
+        grid-row: 3;
+    }
+
+    .visit-item-c, .visit-item-h {
+        grid-row: 4;
+    }
+
+    .visit-item-d, .visit-item-k {
+        grid-row: 7;
+    }
+    
+    .visit-item-f {
+        grid-row: 2;
+    }
+        
+    .visit-item-i {
+        grid-row: 5;
+    }
+
+    .visit-item-j, .visit-item-m {
+        grid-row: 6;
+    }
+
+    .visit-item-l {
+        grid-row: 1/4;
+    }
+        
+    .visit-col-1 h3 {
+        font-size: 1.4rem;
+    }
+
+    .visit-item-g table {
+        font-size: 1.125rem;
+    }
+
+    .visit-item-m {
+        justify-self: center;
     }
 
 

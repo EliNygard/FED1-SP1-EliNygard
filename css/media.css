@@ -691,7 +691,38 @@
     .cafe, .shop {
         max-width: 370px;
         width: 100%;
+    }
 
+
+    /*Explore with us*/
+
+    .clubs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3rem;
+        padding: 3rem 2.5rem;
+    }
+    
+    .holiday, .stars {
+        display: flex;
+        flex-direction: column;
+        border: solid 3px;
+        border-radius: 3px;
+        flex-basis: 25rem;
+        flex-shrink: 2;
+        flex-grow: 1;
+        height: 655px;
+        padding: 1.5rem 3rem 2rem 3rem;
+        gap: 1rem;
+    }
+
+    .holiday {
+        border-color: var(--theme-color-purple);
+    }
+    
+    .stars {
+        border-color: var(--theme-color-red);
     }
 
 

@@ -696,10 +696,14 @@
 
 
     /*Footer*/
+
+    footer {
+        font-size: 1rem;
+    }
     
     .footer-grid {
         display: grid;
-        grid-template-columns: 20% 1fr 1fr 1fr 20%;
+        grid-template-columns: 22% 1fr 1fr 1fr 22%;
         grid-template-rows: repeat(4, auto);
         gap: 1rem;
     }

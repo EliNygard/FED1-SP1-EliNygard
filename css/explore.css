@@ -24,7 +24,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    padding: 1rem .5rem;
+    padding: 1.5rem .5rem;
 }
 
 .holiday, .stars {
@@ -66,37 +66,30 @@
 }
 
 .kids-item-1, .kids-item-2, .kids-item-3 {
-    flex-direction: row;
-    padding: 2rem;
+    flex-direction: column;
+    padding: 1.5rem 1.5rem;
     margin: 0;
 }
 
-.kids-item-2 img {
+figure img {
     order: 2
 }
 
 figure img {
-    max-width: 55%;
+    max-width: 100%;
     aspect-ratio: 5/3;
     object-fit: cover;
 }
 
 figcaption {
     font-family: 'Open Sans';
-    font-size: 1.7rem;
+    font-size: 1rem;
     align-self: center;
-    padding: 0 2rem 1rem 2rem;
 }
 
 .kids-item-4 {
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.kids-item-4 a {
-    width: 330px;
-    height: 60px;
-    font-size: 1.6rem;
 }

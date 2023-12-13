@@ -335,6 +335,37 @@
         border-color: var(--theme-color-red);
     }
 
+    .kids-item-1, .kids-item-2, .kids-item-3 {
+        flex-direction: row;
+        padding: 2rem;
+        margin: 0;
+    }
+    
+    .kids-item-2 img {
+        order: 2
+    }
+    
+    figure img {
+        max-width: 55%;
+        aspect-ratio: 5/3;
+        object-fit: cover;
+    }
+    
+    figcaption {
+        font-family: 'Open Sans';
+        font-size: 1.2rem;
+        align-self: center;
+        padding: 0 2rem 1rem 2rem;
+    }
+    
+    .kids-item-4 {
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
 }
 
 
@@ -771,6 +802,16 @@
 
     .holiday a {
         margin-top: 2rem;
+    }
+
+    figcaption {
+        font-size: 1.7rem;
+    }
+
+    .kids-item-4 a {
+        width: 330px;
+        height: 60px;
+        font-size: 1.6rem;
     }
 
 

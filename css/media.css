@@ -302,6 +302,39 @@
         width: 100%;
     }
 
+
+    /*Explore with us*/
+
+    .clubs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        padding: 2rem 1rem;
+    }
+
+    .holiday, .stars {
+        display: flex;
+        flex-direction: column;
+        border: solid 3px;
+        border-radius: 3px;
+        flex-basis: 15rem;
+        flex-shrink: 2;
+        flex-grow: 1;
+        height: 100%;
+        min-height: 670px;
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+
+    .holiday {
+        border-color: var(--theme-color-purple);
+    }
+    
+    .stars {
+        border-color: var(--theme-color-red);
+    }
+
 }
 
 
@@ -696,6 +729,20 @@
 
     /*Explore with us*/
 
+    .kids-banner {
+        padding: 3rem 1.5rem;
+        gap: 2rem;
+    }
+    
+    .kids-banner h2 {
+        padding-bottom: 2rem;
+    }
+    
+    .kids-banner p {
+        font-size: 1.5rem;
+        align-self: center;
+    }
+
     .clubs {
         display: flex;
         flex-direction: row;
@@ -709,10 +756,7 @@
         flex-direction: column;
         border: solid 3px;
         border-radius: 3px;
-        flex-basis: 25rem;
-        flex-shrink: 2;
-        flex-grow: 1;
-        height: 655px;
+        height: 700px;
         padding: 1.5rem 3rem 2rem 3rem;
         gap: 1rem;
     }
@@ -723,6 +767,10 @@
     
     .stars {
         border-color: var(--theme-color-red);
+    }
+
+    .holiday a {
+        margin-top: 2rem;
     }
 
 

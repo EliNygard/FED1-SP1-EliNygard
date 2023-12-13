@@ -239,10 +239,6 @@
 
     /*Exhibitions*/
 
-    .exh-item {
-        padding: 1rem 3rem;
-    }
-
     .exh-item img {
         order: 1;
         padding: 1.5rem 0;

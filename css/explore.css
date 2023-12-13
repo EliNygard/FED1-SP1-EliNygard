@@ -1,0 +1,66 @@
+.explore {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.kids-banner {
+    background-color: var(--theme-color-purple);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+    gap: 2rem;
+}
+
+.kids-banner h2 {
+    padding-bottom: 2rem;
+}
+
+.kids-banner p {
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.clubs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem 1.5rem;
+
+}
+
+.holiday, .stars {
+    display: flex;
+    flex-direction: column;
+    border: solid 3px;
+    border-radius: 3px;
+    flex-basis: 200px;
+    flex-shrink: 2;
+    /* max-height: 710px;
+    max-width: 460px;
+    width: 100%; */
+    padding: 1.5rem 4rem 2rem 4rem;
+    gap: 1rem;
+}
+
+.holiday {
+    border-color: var(--theme-color-purple);
+
+}
+
+.stars {
+    border-color: var(--theme-color-red);
+}
+
+.holiday a {
+    align-self: center;
+}
+
+.holiday img, .stars img {
+    max-width: 423px;
+}
+
+.stars img {
+    aspect-ratio: 3.8 /4;
+    object-fit: cover;
+}

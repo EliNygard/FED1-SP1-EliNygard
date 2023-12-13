@@ -274,7 +274,7 @@
         flex-wrap: wrap;
     }
 
-    .container {
+    .visit-container {
         width: 100%;
         padding: 1rem 10rem;
     }
@@ -436,7 +436,7 @@
         gap: 1rem;
         padding: 0;
         grid-auto-columns: 1fr 1fr 1fr;
-        max-width: 1440px;
+        max-width: 1280px;
         overflow-x: hidden;
         overscroll-behavior-inline:none;
     }
@@ -501,7 +501,7 @@
     /*Contribute*/
 
     .contribute {
-        max-width: 1440px;
+        max-width: 1280px;
         margin: auto;
     }
     

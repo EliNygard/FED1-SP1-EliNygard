@@ -820,6 +820,19 @@
         font-size: 1.6rem;
     }
 
+    .explore-banner {
+        padding: 2rem;
+    }
+
+    .explore-info {
+        padding: 3rem 0;
+        gap: 1rem;
+    }
+
+    .explore a {
+        margin: 4rem 0 0 0;
+    }
+
 
     /*Footer*/
 

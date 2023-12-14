@@ -3,14 +3,14 @@
     margin: auto;
 }
 
-.explore-banner {
+.kids-banner {
     display: flex;
     flex-direction: column;
     padding: 3rem 1.5rem;
     gap: .5rem;
 }
 
-.explore-banner h2 {
+.kids-banner h2 {
     padding-bottom: 1rem;
 }
 
@@ -93,12 +93,19 @@ figcaption {
     justify-content: center;
 }
 
+.explore-banner {
+    padding: 1rem;
+}
+
 .explore img {
-    height: ;
+    max-width: 1280px;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 9/2.9;
 }
 
 .explore-info {
-    padding: 4rem 0;
+    padding: 1rem .5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,7 +118,7 @@ figcaption {
 }
 
 .explore a {
-    margin: 4rem 0 0 0;
+    margin: 1rem 0 0 0;
 }
 
 .img-banner {

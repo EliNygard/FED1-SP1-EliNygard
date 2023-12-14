@@ -3,19 +3,18 @@
     margin: auto;
 }
 
-.kids-banner {
-    background-color: var(--theme-color-purple);
+.explore-banner {
     display: flex;
     flex-direction: column;
     padding: 3rem 1.5rem;
     gap: .5rem;
 }
 
-.kids-banner h2 {
+.explore-banner h2 {
     padding-bottom: 1rem;
 }
 
-.kids-banner p {
+.explore-banner p {
     align-self: center;
 }
 
@@ -72,7 +71,7 @@
 }
 
 figure img {
-    order: 2
+    order: 2;
 }
 
 figure img {
@@ -93,3 +92,30 @@ figcaption {
     align-items: center;
     justify-content: center;
 }
+
+.explore img {
+    height: ;
+}
+
+.explore-info {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.explore-info p {
+    max-width: 570px;
+    margin: auto;
+}
+
+.explore a {
+    margin: 4rem 0 0 0;
+}
+
+.img-banner {
+    margin: 0;
+    padding: 0;
+}
+

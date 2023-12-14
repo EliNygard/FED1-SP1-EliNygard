@@ -36,6 +36,7 @@
     
     p {
         font-size: 1.1rem;
+        line-height: 1.6rem;
     }
 
     .header-container .hide-on-desktop {
@@ -340,6 +341,10 @@
         padding: 2rem;
         margin: 0;
     }
+
+    .kids-item-1 img, .kids-item-3 img {
+        order: 0
+    }
     
     .kids-item-2 img {
         order: 2
@@ -385,6 +390,7 @@
     
     p {
         font-size: 1.125rem;
+        line-height: 1.7rem;
     }
 
     /*Dropdown Menu*/

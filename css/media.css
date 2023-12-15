@@ -1,5 +1,5 @@
 @media only screen and (max-width: 766px) {
-    .hide-on-mobile {
+    .hide-on-mobile, .contact-desktop-view {
         display: none;
     }
 
@@ -39,7 +39,7 @@
         line-height: 1.6rem;
     }
 
-    .header-container .hide-on-desktop {
+    .header-container .hide-on-desktop, .contact-mobile-view {
         display: none;
     }
 

@@ -1,0 +1,42 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: auto;
+    max-width: 568px;
+    padding: 2rem .5rem 3rem .5rem;
+}
+
+input, textarea {
+    border-radius: 3px;
+    border: 2px solid var(--theme-color-dark);
+    background-color: var(--theme-color-light);
+    margin-bottom: 1rem;
+}
+
+input {
+    height: 2rem;
+}
+
+button {
+    align-self: center;
+}
+
+.button {
+    margin-top: 2rem;
+}
+
+.contact-container {
+    padding: 1rem .5rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    padding: .5rem 0;
+}
+
+.contact-info i {
+    padding-top: .3rem;
+}

@@ -43,3 +43,13 @@ button {
 .contact-info i {
     padding-top: .3rem;
 }
+
+.thank-you {
+    text-align: center;
+    padding: 5rem;
+}
+
+.thank-you h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}

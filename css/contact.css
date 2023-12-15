@@ -24,7 +24,7 @@ button {
     align-self: center;
 }
 
-.button {
+form > .button {
     margin-top: 2rem;
 }
 

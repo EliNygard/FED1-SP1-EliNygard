@@ -372,6 +372,52 @@
     }
     
 
+    /*Contact us*/
+
+    .contact-desktop-view {
+        display: grid;
+        grid-template-columns: 30% 1fr;
+    }
+
+    .contact-col-1, .contact-col-2 {
+        display: inherit;
+        grid-template-rows: 5rem 2rem 2rem;
+        gap: 1rem;
+        align-items: start;
+    }
+
+    .contact-col-1 {
+        justify-content: end;
+        padding: 3rem 2rem 3rem 0;
+    }
+
+    .contact-col-2 {
+        justify-content: start;
+        padding: 3rem 0 3rem 1rem;
+    }
+
+    .contact-item-1, .contact-item-2, .contact-item-3 {
+        grid-column: 1;
+        font-size: 1.2rem;
+        padding-top: .3rem;
+    }
+
+    .contact-item-4, .contact-item-5, .contact-item-6 {
+        grid-column: 2;
+    }
+
+    .contact-item-1, .contact-item-4 {
+        grid-row: 1;
+    }
+
+    .contact-item-2, .contact-item-5 {
+        grid-row: 2;
+    }
+
+    .contact-item-3, .contact-item-6 {
+        grid-row: 3;
+    }
+
 }
 
 

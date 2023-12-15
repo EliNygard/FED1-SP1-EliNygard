@@ -97,9 +97,12 @@ figcaption {
     padding: 1rem;
 }
 
-.explore img {
+.explore-img {
     max-width: 1280px;
     width: 100%;
+}
+
+.teacher-img {
     object-fit: cover;
     aspect-ratio: 9/2.9;
 }
@@ -117,12 +120,9 @@ figcaption {
     margin: auto;
 }
 
-.explore a {
+.explore-info a {
     margin: 1rem 0 0 0;
 }
 
-.img-banner {
-    margin: 0;
-    padding: 0;
-}
+
 

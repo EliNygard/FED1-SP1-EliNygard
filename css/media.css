@@ -340,6 +340,7 @@
         flex-direction: row;
         padding: 2rem;
         margin: 0;
+        width: 100%;
     }
 
     .kids-item-1 img, .kids-item-3 img {
@@ -806,9 +807,9 @@
         border-color: var(--theme-color-red);
     }
 
-    .holiday a {
+    /* .holiday a {
         margin-top: 2rem;
-    }
+    } */
 
     figcaption {
         font-size: 1.7rem;
@@ -829,7 +830,7 @@
         gap: 1rem;
     }
 
-    .explore a {
+    .explore-info a {
         margin: 4rem 0 0 0;
     }
 

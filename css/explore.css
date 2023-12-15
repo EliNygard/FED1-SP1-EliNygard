@@ -124,5 +124,23 @@ figcaption {
     margin: 1rem 0 0 0;
 }
 
+.img-banner {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
 
+.img-banner-teacher {
+    background-image: url('../assets/teachers-learn-2405206_1920.jpg');
+    background-size: cover;
+    aspect-ratio: 9/2.9;
+}
+
+.img-banner-researcher {
+    background-image: url('../assets/researchers-lab-512503_1920.jpg');
+    background-size: cover;
+    aspect-ratio: 9/2;
+
+}
 

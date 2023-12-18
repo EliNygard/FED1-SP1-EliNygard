@@ -1,3 +1,15 @@
+@supports (-webkit-touch-callout: none) {
+
+    details:not([open]) summary i.down {
+        display: none !important;
+    }
+
+    details[open] summary i.right {
+        display: none !important;
+    }
+}
+
+
 @media only screen and (max-width: 766px) {
     .hide-on-mobile, .contact-desktop-view {
         display: none;

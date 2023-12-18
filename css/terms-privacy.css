@@ -15,7 +15,11 @@
     padding: 2rem .5rem 0 .5rem;
 }
 
-.doc-headings > a {
+.doc-headings li {
+    list-style: none;
+}
+
+.doc-headings li a {
     font-family: Marvel;
     font-weight: normal;
     font-size: 1.4rem;

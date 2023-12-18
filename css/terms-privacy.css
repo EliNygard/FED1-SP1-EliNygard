@@ -42,10 +42,6 @@
     gap: .5rem;
 }
 
-summary {
-    display: block;
-}
-
 summary::-webkit-details-marker { 
     display: none 
 }

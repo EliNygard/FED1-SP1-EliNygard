@@ -62,10 +62,11 @@ details {
 }
 
 details:not([open]) summary i.down {
-    display: none;
+    display: none !important;
 }
 
 details[open] summary i.right {
-    display: none;
+    display: none !important;
 }
+
 

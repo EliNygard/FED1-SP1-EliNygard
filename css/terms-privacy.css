@@ -43,7 +43,11 @@
 }
 
 summary {
-    list-style: none;
+    display: block;
+}
+
+summary::-webkit-details-marker { 
+    display: none 
 }
 
 details {

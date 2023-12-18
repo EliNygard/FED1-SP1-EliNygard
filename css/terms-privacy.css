@@ -15,7 +15,7 @@
     padding: 2rem .5rem 0 .5rem;
 }
 
-.doc-headings > h1 {
+.doc-headings > a {
     font-family: Marvel;
     font-weight: normal;
     font-size: 1.4rem;
@@ -42,8 +42,23 @@ details {
     padding: .5rem 0rem;
 }
 
+.doc-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem .5rem 0rem 1.2rem;
+}
+
+.doc-contact > p:nth-child(6) {
+    padding: 1.5rem 0rem;
+}
+
 .doc-container ul li {
     padding-bottom: 1rem;
+}
+
+.doc-container ul li:last-child {
+    padding-bottom: 0rem;
 }
 
 details:not([open]) summary i.down {

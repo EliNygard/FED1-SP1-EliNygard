@@ -419,6 +419,20 @@
 
     /*Terms, Privacy*/
 
+    .doc-header {
+        padding: 1rem 0 1.5rem;
+    }
+    
+    .doc-headings {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 3rem 1rem 0 1rem;
+    }
+
+    .doc-headings > h1 {
+        font-size: 1.8rem;
+    }
+
     .doc-container {
         padding: 2rem 0 1rem 2rem;
     }
@@ -447,6 +461,10 @@
     p {
         font-size: 1.125rem;
         line-height: 1.7rem;
+    }
+
+    header {
+        font-size: 1.125rem;
     }
 
     /*Dropdown Menu*/
@@ -891,7 +909,7 @@
 
     /* Contact Us*/
 
-    label {
+    form > label {
         font-size: 1.125rem;
     }
 
@@ -900,6 +918,10 @@
 
     .doc-container {
         padding: 2rem 4rem 1rem 4rem;
+    }
+
+    .doc-headings > h1 {
+        font-size: 2.1rem;
     }
 
 

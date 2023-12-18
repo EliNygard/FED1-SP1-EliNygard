@@ -1,15 +1,24 @@
-details > summary {
-    list-style: none;
-    cursor: pointer;
-    padding-bottom: .5rem;
+.main-container {
+    max-width: 1280px;
+    margin: auto;
 }
 
-details:not([open]) summary i.down {
-    display: none;
+.doc-header {
+    padding: 1rem 0 1.5rem;
 }
 
-details[open] summary i.right {
-    display: none;
+.doc-headings {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    align-items: center;
+    padding: 2rem .5rem 0 .5rem;
+}
+
+.doc-headings > h1 {
+    font-family: Marvel;
+    font-weight: normal;
+    font-size: 1.4rem;
 }
 
 .doc-container {
@@ -20,6 +29,28 @@ details[open] summary i.right {
     padding-bottom: 1rem;
 }
 
+.doc-container details summary {
+    list-style: none;
+    cursor: pointer;
+    padding-bottom: .5rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
 details {
     padding: .5rem 0rem;
 }
+
+.doc-container ul li {
+    padding-bottom: 1rem;
+}
+
+details:not([open]) summary i.down {
+    display: none;
+}
+
+details[open] summary i.right {
+    display: none;
+}
+

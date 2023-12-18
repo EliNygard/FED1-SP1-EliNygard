@@ -1,4 +1,25 @@
 details > summary {
     list-style: none;
     cursor: pointer;
+    padding-bottom: .5rem;
+}
+
+details:not([open]) summary i.down {
+    display: none;
+}
+
+details[open] summary i.right {
+    display: none;
+}
+
+.doc-container {
+    padding: 1rem .5rem 2rem .5rem;
+}
+
+.doc-container h2 {
+    padding-bottom: 1rem;
+}
+
+details {
+    padding: .5rem 0rem;
 }

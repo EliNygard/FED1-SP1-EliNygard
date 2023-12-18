@@ -254,13 +254,11 @@
 
     /*Contribute*/
 
-    .contribute > div  {
+    .contribute .hide-on-mobile {
+        display: none;
         padding: 3rem 0;
     }
 
-    .contribute .hide-on-mobile {
-        display: none;
-    }
 
 
     /*Visit Us*/
@@ -416,6 +414,17 @@
 
     .contact-item-3, .contact-item-6 {
         grid-row: 3;
+    }
+
+
+    /*Terms, Privacy*/
+
+    .doc-container {
+        padding: 2rem 0 1rem 2rem;
+    }
+
+    details {
+        padding: .5rem 0rem;
     }
 
 }
@@ -884,6 +893,13 @@
 
     label {
         font-size: 1.125rem;
+    }
+
+
+    /*Terms, Privacy*/
+
+    .doc-container {
+        padding: 2rem 4rem 1rem 4rem;
     }
 
 

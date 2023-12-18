@@ -42,6 +42,10 @@
     gap: .5rem;
 }
 
+summary {
+    list-style: none;
+}
+
 details {
     padding: .5rem 0rem;
 }

@@ -40,6 +40,10 @@ header nav,
     gap: 1rem;
 }
 
+.button span {
+    padding-left: .5rem;
+}
+
 
 
 

@@ -690,7 +690,7 @@
 
     .support-item-1, .support-item-2 {
         display: grid;
-        grid-template-rows: 7ch 5ch 12ch 12ch;
+        grid-template-rows: 7ch 5ch 12ch 13ch;
         padding: 1.5rem;
     }
 
@@ -753,7 +753,7 @@
     .visit-col-1, .visit-col-2, .visit-col-3 {
         padding: 2rem 1.5rem;
         display: inherit;
-        grid-template-rows: 2rem 10rem 12rem 2rem 6rem 6rem 6rem;
+        grid-template-rows: 2rem 10rem 12rem 2rem 7rem 7rem 7rem;
         gap: 1rem;
     }
 
@@ -929,7 +929,7 @@
     /*Footer*/
 
     footer {
-        font-size: 1rem;
+        font-size: .9rem;
     }
     
     .footer-grid {

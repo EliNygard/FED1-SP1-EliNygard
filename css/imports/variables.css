@@ -14,3 +14,11 @@
     --hover-color-green: rgb(210, 229, 209);
 }
 
+main {
+    background-color: var(--theme-color-light);
+}
+
+img {
+    border-radius: 3px;
+}
+

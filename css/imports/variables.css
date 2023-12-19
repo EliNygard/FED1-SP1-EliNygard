@@ -15,7 +15,8 @@
 }
 
 main {
-    background-color: var(--theme-color-light);
+    max-width: 1280px;
+    margin: auto;
 }
 
 img {

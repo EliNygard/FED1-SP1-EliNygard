@@ -25,7 +25,12 @@
     font-size: 1.4rem;   
 }
 
+.doc-headings li a:hover {
+    text-decoration: underline;
+}
+
 .doc-container {
+    background-color: var(--theme-color-light);
     padding: 1rem .5rem 2rem .5rem;
 }
 
@@ -79,11 +84,11 @@ details {
     padding: 1rem 0 1rem 0;
 }
 
-details:not([open]) summary i.down {
+details:not([open]) summary span.down {
     display: none !important;
 }
 
-details[open] summary i.right {
+details[open] summary span.right {
     display: none !important;
 }
 

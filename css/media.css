@@ -60,9 +60,9 @@
         top: 72px;
         margin: auto;
         padding: 0;
+        /* width: 100vw; */
+        max-width: 1280px;
         width: 100vw;
-        /* left: auto; */
-        right: 0;
     }
 
     .dropdown-grid {
@@ -254,7 +254,7 @@
 
     /*Contribute*/
 
-    .contribute .hide-on-mobile {
+    .support-hide-on-mobile {
         display: none;
         padding: 3rem 0;
     }
@@ -466,12 +466,9 @@
     header {
         font-size: 1.125rem;
     }
+    
 
     /*Dropdown Menu*/
-
-    .dropdown > nav {
-        right: 0px;
-    }
 
     .dropdown-button {
         min-height: 2.5rem;
@@ -641,11 +638,6 @@
 
     /*Contribute*/
 
-    .contribute {
-        max-width: 1280px;
-        margin: auto;
-    }
-    
     .join {
         background-color: var(--theme-color-light);
         display: flex;
@@ -675,11 +667,11 @@
         padding-top: 1rem;
     }
     
-    .contribute .hide-on-desktop {
-        display: none
+    .support-hide-on-desktop {
+        display: none;
     }
 
-    .contribute .hide-on-mobile {
+    .support-hide-on-mobile {
         display: flex;
     }
 

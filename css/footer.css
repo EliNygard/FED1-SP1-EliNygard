@@ -51,3 +51,7 @@ address span {
     gap: 1rem;
     font-size: 1rem;
 }
+
+.footer-item-4 a:hover, .footer-item-5 a:hover, .footer-item-6 a:hover {
+    text-decoration: underline;
+}

@@ -40,6 +40,10 @@
     padding-bottom: 1rem;
 }
 
+.visit-col-1 h2 {
+    font-size: 1.4rem;
+}
+
 .adm-btn {
     align-self: center;
 }

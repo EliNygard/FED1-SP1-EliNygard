@@ -27,26 +27,10 @@ header nav,
     list-style: none;
 }
 
-/* .dropdown ul li {
-    padding-bottom: .3rem;
-} */
-
-.dropdown ul li a span {
+/* .dropdown ul li a span {
     color: var(--theme-color-dark);
     font-family: Marvel;
     font-size: 1.3rem;
-}
-
-/* .dropdown-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: minmax(auto, auto);
-    justify-items: center;
-    align-items: center;
-    gap: .8rem;
-    margin: auto;
-    padding: 1rem .5rem .5rem .5rem;
-    position: relative;
 } */
 
 .dropdown-grid {
@@ -54,12 +38,6 @@ header nav,
     flex-direction: column;
     padding: 0;
     gap: 1rem;
-}
-
-
-.dropdown-item-3, .dropdown-item-4, .dropdown-item-5, /*i tilfelle de trenger styling, hvis ikke slett*/
-.dropdown-item-7, .dropdown-item-8 {
-
 }
 
 

@@ -45,13 +45,15 @@ header > p {
 
 .header-right {
     padding: 2rem 1.5rem 1rem 1rem;
+}
+
+.header-right > label {
     cursor: pointer;
 }
 
 a {
     text-decoration: none;
     color: inherit;
-
 }
 
 

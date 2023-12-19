@@ -22,7 +22,7 @@
 .doc-headings li a {
     font-family: Marvel;
     font-weight: normal;
-    font-size: 1.4rem;
+    font-size: 1.4rem;   
 }
 
 .doc-container {
@@ -67,6 +67,16 @@ details {
 
 .doc-container ul li:last-child {
     padding-bottom: 0rem;
+}
+
+/*sjekk om disse funker*/
+
+.doc-contact p:nth-child(5), .doc-contact p:nth-child(7) {
+    padding-bottom: 1rem;
+}
+
+.doc-contact:last-child {
+    padding: 1rem 0 1rem 0;
 }
 
 details:not([open]) summary i.down {

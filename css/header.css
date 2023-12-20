@@ -1,4 +1,4 @@
-header {
+.header-main {
     background: var(--theme-color-orange);
     color: var(--theme-color-dark);
     font-family: 'Open Sans';

@@ -248,21 +248,13 @@
     .exh-item img {
         order: 1;
         padding: 1.5rem 0;
-        width: 600px;
+        aspect-ratio: 2.5 / 2;
     }
 
-    .exh-item div, .exh-item img {
-        max-width: 600px;
+    .exh-item article, .exh-item img {
+        max-width: 425px;
         margin: auto;
     }
-
-
-    /*Contribute*/
-
-    /* .support-hide-on-mobile {
-        display: none;
-    } */
-
 
 
     /*Visit Us*/
@@ -629,12 +621,13 @@
     }
     
     .exh-item img {
-        aspect-ratio: 2.7 / 2;
+        aspect-ratio: 2.7 /2;
         max-width: 425px;
+        height: 100%;
         margin: 0;
     }
 
-    .exh-item div {
+    .exh-item article {
         max-width: 667px;
         margin: 0;
     }

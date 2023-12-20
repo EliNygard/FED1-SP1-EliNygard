@@ -24,6 +24,10 @@
     object-fit: cover;
 }
 
+.exh-item-3 img {
+    object-position: center 58%;
+}
+
 .exh-item-1 {
     background-color: var(--theme-color-green);
 }

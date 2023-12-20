@@ -19,8 +19,8 @@
         <header>
             <div class="header-container">
                 <div class="header-left">
-                    <a href="../index.html" class="hide-on-desktop" tabindex="0">TSM</a>
-                    <a href="../index.html" class="hide-on-mobile" tabindex="0">Tórshavn Science Museum</a>
+                    <a href="../index.html" class="hide-on-desktop" tabindex="0" title="Home">TSM</a>
+                    <a href="../index.html" class="hide-on-mobile" tabindex="0" title="Home">Tórshavn Science Museum</a>
                 </div>
                 <div class="header-right dropdown">
                     <input type="checkbox" id="menu-checkbox">
@@ -63,49 +63,49 @@
             </div>
         </header>
         <main>
-            <section class="explore"> <!--lag en felles class for denne-->
-                <h1 class="heading">Contact Us</h1>
+            <h1 class="heading">Contact Us</h1>
+            <a href="../index.html" title="Home">
                 <div class="logo logo-home">
                     Tórshavn<br>Science<br>Museum
-                </div>                        
-                <form action="../html/contact-thank-you.html" method="GET">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" required>
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" required>
-                    <label for="message">Your Message</label>
-                    <textarea name="message" id="message" rows="10"></textarea>
-                    <button class="button">Send</button>
-                </form>
-                <div class="contact-desktop-view">
-                    <aside class="contact-col-1 bg-color-purple">
-                        <span class="contact-item-1 fa-solid fa-envelope"></span>
-                        <span class="contact-item-2 fa-solid fa-at"></span>
-                        <span class="contact-item-3 fa-solid fa-phone"></span>
-                    </aside>
-                    <div class="contact-col-2 bg-color-red">
-                        <p class="contact-item-4">Tórshavn Science Museum<br>Hvalsoyargøta 9<br>100 Tórshavn</p>
-                        <p class="contact-item-5">contact@torshavnsciencemuseum.fo</p>
-                        <p class="contact-item-6">+298 324517</p>
+                </div>                    
+            </a>                        
+            <form action="../html/contact-thank-you.html" method="GET">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message" rows="10"></textarea>
+                <button class="button">Send</button>
+            </form>
+            <div class="contact-desktop-view">
+                <aside class="contact-col-1 bg-color-purple">
+                    <span class="contact-item-1 fa-solid fa-envelope"></span>
+                    <span class="contact-item-2 fa-solid fa-at"></span>
+                    <span class="contact-item-3 fa-solid fa-phone"></span>
+                </aside>
+                <div class="contact-col-2 bg-color-red">
+                    <p class="contact-item-4">Tórshavn Science Museum<br>Hvalsoyargøta 9<br>100 Tórshavn</p>
+                    <p class="contact-item-5">contact@torshavnsciencemuseum.fo</p>
+                    <p class="contact-item-6">+298 324517</p>
+                </div>
+            </div>
+            <div class="contact-mobile-view">
+                <div class="contact-container bg-color-purple">
+                    <div class="contact-info">
+                        <span class="fa-solid fa-envelope"></span>
+                        <p>Tórshavn Science Museum<br>Hvalsoyargøta 9<br>100 Tórshavn</p>
+                    </div>
+                    <div class="contact-info">
+                        <span class="fa-solid fa-at"></span>
+                        <p>contact@torshavnsciencemuseum.fo</p>
+                    </div>               
+                    <div class="contact-info">
+                        <span class="fa-solid fa-phone"></span>
+                        <p>+298 324517</p>
                     </div>
                 </div>
-                <div class="contact-mobile-view">
-                    <div class="contact-container bg-color-purple">
-                        <div class="contact-info">
-                            <span class="fa-solid fa-envelope"></span>
-                            <p>Tórshavn Science Museum<br>Hvalsoyargøta 9<br>100 Tórshavn</p>
-                        </div>
-                        <div class="contact-info">
-                            <span class="fa-solid fa-at"></span>
-                            <p>contact@torshavnsciencemuseum.fo</p>
-                        </div>               
-                        <div class="contact-info">
-                            <span class="fa-solid fa-phone"></span>
-                            <p>+298 324517</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            </div>
         </main>
         <footer>
             <nav>

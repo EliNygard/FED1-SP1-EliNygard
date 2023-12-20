@@ -47,8 +47,24 @@
     gap: .5rem;
 }
 
+.doc-container ul li {
+    padding-bottom: 1rem;
+}
+
+.doc-container ul li:last-child {
+    padding-bottom: 0rem;
+}
+
 summary::-webkit-details-marker { 
     display: none 
+}
+
+details:not([open]) summary span.down { /* none !important;*/
+    display: none;
+}
+
+details[open] summary span.right {
+    display: none;
 }
 
 details {
@@ -59,37 +75,32 @@ details {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    padding: 2rem .5rem 0rem 0rem;
+    padding: 2rem .5rem 3rem 0rem;
 }
 
-.doc-contact > p:nth-child(6) {
-    padding: 1.5rem 0rem;
-}
-
-.doc-container ul li {
+/* .doc-contact .terms p:nth-child(5) {
     padding-bottom: 1rem;
 }
 
-.doc-container ul li:last-child {
-    padding-bottom: 0rem;
+.doc-contact .terms p:nth-child(6) {
+    padding-bottom: 2rem;
 }
 
-/*sjekk om disse funker*/
+.doc-contact .privacy p {
+    padding-bottom: 4rem;
+} */
 
-.doc-contact p:nth-child(5), .doc-contact p:nth-child(7) {
-    padding-bottom: 1rem;
+.doc-contact a:hover {
+    text-decoration: underline;
 }
 
-.doc-contact:last-child {
-    padding: 1rem 0 1rem 0;
+.doc-contact a {
+    margin-top: 2rem;
 }
 
-details:not([open]) summary span.down {
-    display: none !important;
-}
-
-details[open] summary span.right {
-    display: none !important;
+.doc-contact a span {
+    border: 2px solid var(--theme-color-dark);
+    padding: .5rem;
 }
 
 

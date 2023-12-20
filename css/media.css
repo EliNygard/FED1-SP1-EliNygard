@@ -21,6 +21,11 @@
         font-size: .9rem;
     }
 
+    /* .support-hide-on-mobile {
+        display: none;
+        padding: 3rem 0;
+    } */
+
 }
 
 
@@ -254,10 +259,9 @@
 
     /*Contribute*/
 
-    .support-hide-on-mobile {
+    /* .support-hide-on-mobile {
         display: none;
-        padding: 3rem 0;
-    }
+    } */
 
 
 

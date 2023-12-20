@@ -45,3 +45,8 @@
 .support-item-e {
     padding-bottom: 1rem;
 }
+
+.support-hide-on-mobile {
+    display: none;
+    padding: 3rem 0;
+}

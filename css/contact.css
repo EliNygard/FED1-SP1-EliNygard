@@ -7,7 +7,11 @@ form {
     padding: 2rem .5rem 3rem .5rem;
 }
 
-/*focus effect?*/
+::placeholder {
+    font-family: 'Open Sans';
+    font-size: .8rem;
+    padding: .5rem;
+}
 
 input, textarea {
     border-radius: 3px;
@@ -17,11 +21,18 @@ input, textarea {
 }
 
 input {
-    height: 2rem;
+    height: 40px;
 }
 
 input:focus, textarea:focus {
     border: 3px solid;
+}
+
+input[type=text], input[type=email], textarea[type=text] {
+    padding: .5rem;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
 }
 
 button {

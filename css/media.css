@@ -237,12 +237,6 @@
     .exh-item img {
         order: 1;
         padding: 1.5rem 0;
-        aspect-ratio: 2.5 / 2;
-    }
-
-    .exh-item article, .exh-item img {
-        max-width: 425px;
-        margin: auto;
     }
 
 
@@ -347,10 +341,9 @@
         object-fit: cover;
     }
     
-    figcaption {
-        font-family: 'Open Sans';
+    figure p {
         font-size: 1.2rem;
-        align-self: center;
+        line-height: 1.5;
         padding: 0 2rem 1rem 2rem;
     }
     
@@ -582,8 +575,6 @@
 
     .exh-item {
         padding: 2rem 3rem;
-        margin: 0;
-        display: flex;
         flex-direction: row;
         justify-content: center;
     }
@@ -609,8 +600,6 @@
     }
     
     .exh-item img {
-        aspect-ratio: 2.7 /2;
-        max-width: 425px;
         height: 100%;
         margin: 0;
     }
@@ -624,32 +613,12 @@
     /*Contribute*/
 
     .join {
-        background-color: var(--theme-color-light);
-        display: flex;
         flex-direction: row;
         padding: 5rem 1.5rem 0 1.5rem;
-        gap: 2rem;
-    }
-    
-    .volunteer {
-        border: 3px solid var(--theme-color-purple);
-    }
-    
-    .intern {
-        border: 3px solid var(--theme-color-red);
     }
     
     .volunteer, .intern {
         padding: 1rem 3rem 2rem 3rem;
-        flex: 1;
-    }
-    
-    .join h2 {
-        padding-top: .5rem;
-    }
-    
-    .join p {
-        padding-top: 1rem;
     }
     
     .support-hide-on-desktop {
@@ -837,21 +806,14 @@
     }
 
     .clubs {
-        display: flex;
         flex-direction: row;
-        justify-content: center;
         gap: 3rem;
         padding: 3rem 2.5rem;
     }
     
     .holiday, .stars {
-        display: flex;
-        flex-direction: column;
-        border: solid 3px;
-        border-radius: 3px;
         height: 700px;
         padding: 1.5rem 3rem 2rem 3rem;
-        gap: 1rem;
     }
 
     .holiday {
@@ -862,12 +824,9 @@
         border-color: var(--theme-color-red);
     }
 
-    /* .holiday a {
-        margin-top: 2rem;
-    } */
-
-    figcaption {
+    figure p {
         font-size: 1.7rem;
+        line-height: 2.2rem;
     }
 
     .kids-item-4 a {
@@ -891,8 +850,8 @@
 
     /* Contact Us*/
 
-    form > label {
-        font-size: 1.125rem;
+    ::placeholder {
+        font-size: 1rem;
     }
 
 

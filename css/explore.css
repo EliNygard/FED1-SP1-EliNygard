@@ -80,9 +80,7 @@ figure img {
     object-fit: cover;
 }
 
-figcaption {
-    font-family: 'Open Sans';
-    font-size: 1rem;
+figure p {
     align-self: center;
 }
 

@@ -77,18 +77,6 @@ details {
     padding: 2rem .5rem 3rem 0rem;
 }
 
-/* .doc-contact .terms p:nth-child(5) {
-    padding-bottom: 1rem;
-}
-
-.doc-contact .terms p:nth-child(6) {
-    padding-bottom: 2rem;
-}
-
-.doc-contact .privacy p {
-    padding-bottom: 4rem;
-} */
-
 .doc-contact a:hover {
     text-decoration: underline;
 }
@@ -101,5 +89,3 @@ details {
     border: 2px solid var(--theme-color-dark);
     padding: .5rem;
 }
-
-

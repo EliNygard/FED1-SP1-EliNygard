@@ -29,6 +29,15 @@
     object-position: 0 -147px;
 }
 
+.info-item-1 span {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 0 .8rem 0;
+}
+
 .info-item-2 {
     order: 1;
 }

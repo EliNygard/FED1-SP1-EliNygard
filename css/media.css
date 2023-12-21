@@ -9,10 +9,6 @@
         margin: auto;
     }
 
-    .support-item-2 p {
-        font-size: .9rem;
-    }
-
     /* .support-hide-on-mobile {
         display: none;
         padding: 3rem 0;
@@ -242,7 +238,7 @@
 
     /*Contribute*/
 
-    .support-item-2 h3 {
+    .support-item-2 h3, .support-item-2 address {
         font-size: 1.1rem;
     }
 
@@ -640,7 +636,7 @@
         padding: 1.5rem;
     }
 
-    .support-item-2 h3 {
+    .support-item-2 h3, .support-item-2 address {
         font-size: 1.125rem;
     }
 

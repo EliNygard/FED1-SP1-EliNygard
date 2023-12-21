@@ -60,12 +60,9 @@
     /*Dropdown Menu */
 
     .dropdown nav {
-        position: absolute;
-        background-color: var(--theme-color-orange);
-        top: 72px;
+        border-radius: 0px;
         margin: auto;
         padding: 0;
-        /* width: 100vw; */
         max-width: 1280px;
         width: 100vw;
     }

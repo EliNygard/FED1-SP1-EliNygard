@@ -15,11 +15,12 @@ header nav,
 .dropdown > nav {
     position: absolute;
     background-color: var(--theme-color-orange);
-    border-radius: 3px;
-    top: 3.2rem;
+    border-radius: 0px 0px 0px 3px;
+    top: 4.4rem;
     margin: 0;
     padding: .5rem;
     width: 95vw;
+    max-width: 480px;
     right: 0px;
 }
 
@@ -32,6 +33,7 @@ header nav,
     flex-direction: column;
     padding: 0;
     gap: 1rem;
+    align-items: center;
 }
 
 .button span {

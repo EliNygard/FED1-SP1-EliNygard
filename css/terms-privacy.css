@@ -25,8 +25,12 @@
     font-size: 1.4rem;   
 }
 
-.doc-headings li a:hover {
-    text-decoration: underline;
+.doc-headings li {
+    border-bottom: 1px solid transparent;
+}
+
+.doc-headings li:hover {
+    border-bottom: 1px solid var(--theme-color-dark);
 }
 
 .doc-container {

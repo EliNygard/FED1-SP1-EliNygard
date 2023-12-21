@@ -30,12 +30,11 @@ tbody tr td:first-child {
     padding-right: .8rem;
 }
 
-address {
-    font-style: normal;
+footer address {
     text-align: center;
 }
 
-address span {
+footer > address > span {
     padding: 1px 0 1px 1px;
 }
 

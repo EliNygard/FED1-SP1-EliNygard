@@ -254,6 +254,13 @@
     }
 
 
+    /*Contribute*/
+
+    .support-item-2 h3 {
+        font-size: 1.1rem;
+    }
+
+
     /*Visit Us*/
 
     .visit-mobile-view {
@@ -680,6 +687,10 @@
         padding: 1.5rem;
     }
 
+    .support-item-2 h3 {
+        font-size: 1.125rem;
+    }
+
     .support-item-a {
         grid-row: 1;
     }
@@ -977,7 +988,7 @@
         font-size: 1.4rem;
     }
 
-    address {
+    footer address {
         text-align: left;
     }
 

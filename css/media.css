@@ -501,12 +501,9 @@
     /*--Info Banner*/
 
     .info-banner {
-        display: grid;
         grid-template-columns: 2fr 1.4fr 1fr;
         grid-template-rows: 1fr 20%;
-        gap: 2rem;
         padding: 4.5rem;
-        margin: auto;
     }
     
     .info-item-1 {
@@ -564,7 +561,6 @@
 
     .scroller {
         gap: 1rem;
-        padding: 0;
         grid-auto-columns: 1fr 1fr 1fr;
         max-width: 1280px;
         overflow-x: hidden;
@@ -572,10 +568,6 @@
     }
     .special-events h2 {
         padding: 0 0 1rem 0;
-    }
-    
-    .event-date {
-        margin-top: auto;           /*why doesn't align-self or -items work*/
     }
 
 

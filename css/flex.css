@@ -10,15 +10,3 @@
 .justify-center {
     justify-content: center;
 }
-
-.align-center {
-    align-items: center;
-}
-
-.justify-left {
-    justify-content: end;
-}
-
-.justify-right {
-    justify-content: start;
-}

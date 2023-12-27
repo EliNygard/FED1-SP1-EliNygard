@@ -1,6 +1,5 @@
 .special-events {
     background-color: var(--theme-color-blue);
-    max-width: 1280px;
     padding: 1rem .5rem;
     margin: auto;
 }

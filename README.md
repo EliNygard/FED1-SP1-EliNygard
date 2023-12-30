@@ -17,9 +17,6 @@ The site should appeal to youngsters without pandering; while aiming at a younge
 The client has not supplied a logo because the museum committee cannot decide on a final design. You are free to create a placeholder logo for the client.
 
 
-
-
-
 User Stories
 The following user stories must be fulfilled in order to complete the project.
 A visitor can view a home page showing key information and impactful imagery.

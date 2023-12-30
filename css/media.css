@@ -8,12 +8,6 @@
         max-width: 300px;
         margin: auto;
     }
-
-    /* .support-hide-on-mobile {
-        display: none;
-        padding: 3rem 0;
-    } */
-
 }
 
 
@@ -264,11 +258,9 @@
         padding: 1rem 10rem;
     }
 
-
     .visit-mobile-view table {
         font-size: 1.1rem;
     }
-
 
     .museum {
         display: flex;
@@ -429,7 +421,6 @@
     details {
         padding: .5rem 0rem 1rem 0rem;
     }
-
 }
 
 
@@ -767,7 +758,6 @@
         justify-self: center;
     }
 
-
     .museum {
         display: flex;
         flex-direction: row;
@@ -944,4 +934,3 @@
         margin: 0 0 3rem 0;
     }
 }
-

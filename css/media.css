@@ -227,6 +227,14 @@
         padding: 1rem;
     }
 
+    .scroller {
+        gap: 1rem;
+    }
+
+    .event-container {
+        padding: .7rem;
+    }
+
 
     /*Exhibitions*/
 
@@ -544,17 +552,17 @@
         padding: 4.5rem;
     }
 
-    .event-grid {
-        padding: 1.5rem;
+    .event-container {
+        padding: 1.3rem;
     }
 
     .scroller {
-        gap: 1rem;
+        gap: 1.5rem;
         grid-auto-columns: 1fr 1fr 1fr;
-        max-width: 1280px;
         overflow-x: hidden;
         overscroll-behavior-inline:none;
     }
+    
     .special-events h2 {
         padding: 0 0 1rem 0;
     }

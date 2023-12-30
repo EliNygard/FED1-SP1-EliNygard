@@ -58,7 +58,7 @@ summary::-webkit-details-marker {
     display: none 
 }
 
-details:not([open]) summary span.down { /* none !important;*/
+details:not([open]) summary span.down { 
     display: none;
 }
 

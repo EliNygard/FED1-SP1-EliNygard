@@ -67,3 +67,13 @@
 .snaps-inline > * {
     scroll-snap-align: start;
 }
+
+.event-grid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    max-width: 30rem;
+    padding: .5rem;
+}
+

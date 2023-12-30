@@ -552,15 +552,15 @@
         padding: 4.5rem;
     }
 
-    .event-container {
-        padding: 1.3rem;
-    }
-
     .scroller {
         gap: 1.5rem;
         grid-auto-columns: 1fr 1fr 1fr;
         overflow-x: hidden;
         overscroll-behavior-inline:none;
+    }
+
+    .event-container {
+        padding: 1rem;
     }
     
     .special-events h2 {

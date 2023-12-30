@@ -52,7 +52,6 @@ button {
 .button-category:hover {
     border: 3px solid var(--theme-color-green);
     background-color: transparent;
-    /*add transition*/
 }
 
 .button-green {

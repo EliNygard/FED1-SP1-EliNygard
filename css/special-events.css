@@ -55,16 +55,7 @@
     padding: 1rem 0;
 }
 
-/* .special-events h3 {
-    padding: .8rem 0 .5rem 0;
-} */
-
-/* .special-events p {
-    padding: .5rem 0 .5rem 0;
-} */
-
 .event-date {
-    margin-top: auto;           /*why doesn't align-self or -items work*/
     padding-top: 1rem;
 }
 

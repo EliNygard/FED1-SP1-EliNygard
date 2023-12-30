@@ -1,6 +1,9 @@
 # semester-project-1
 My Semester Project 1. Designing and building a web site for Tórshavn Science Museum.
 
+
+Brief:
+
 Instructions
 Welcome to your first project exam brief. This assignment simulates a real-world brief that you may receive at from a web agency. The aim is to use your new knowledge of project planning, web design and development to complete the brief in the available time.
 

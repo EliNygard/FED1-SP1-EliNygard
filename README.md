@@ -28,7 +28,7 @@ I have used Figma to design the web page, and built it with HTML and CSS.
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/FED1-PE1-EliNygard.git
+git clone git@github.com:EliNygard/semester-project-1.git
 ```
 
 2. Install the dependencies:
@@ -53,6 +53,4 @@ eli.nygard@gmail.com
 [My Linkedin Page](https://www.linkedin.com/in/eli-nyg%C3%A5rd/)
 
 ## Acknowledgments
-I want to thank Oda, Jesus, Manuel and Lena for testing and reviewing my project.
-
-Besides content on Molly, I found inspiration for the post carousel from this [tutorial on YouTube](https://www.youtube.com/watch?v=749ta0nvj8s&t=3s)
+I want to thank Oda, Manuel, Lena and Kåre for testing and reviewing my project.

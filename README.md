@@ -6,7 +6,7 @@
 [Visit Tórshavn Science Museum](https://norofffeu.github.io/FED1-PE1-EliNygard/index.html)
 
 ## Description
-This is a blog page for the fictional client Tórshavn Science Museum. 
+This is a web page for the fictional client Tórshavn Science Museum. 
 
 The aim was to use the new knowledgde of project planning, web design and development I have learned over the first semester of the Front-end Development studies at Noroff.
 

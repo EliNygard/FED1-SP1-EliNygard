@@ -1,12 +1,12 @@
 #### FED1 Semester Project 1
-# Drammen Science Museum
+# Tórshavn Science Museum
 
-![image](https://i.ibb.co/xg8Kw2z/Skjermbilde-2024-05-29-081846.png)
+![image](https://i.ibb.co/KzVC9jf/Skjermbilde-2024-05-29-092411.png)
 
-[Visit HotView Labs](https://norofffeu.github.io/FED1-PE1-EliNygard/index.html)
+[Visit Tórshavn Science Museum](https://norofffeu.github.io/FED1-PE1-EliNygard/index.html)
 
 ## Description
-This is a blog page for the fictional client HotView Labs. 
+This is a blog page for the fictional client Tórshavn Science Museum. 
 
 The goal was to put into practice the skills I have learned over the FED1 program, the first year of the Front-end Development studies at Noroff. 
 To do that, I was "hired" to build a front-end user interface for an exisiting API blogging application. The client asked for a responsive application that allow users to view dynamic blog posts. The client required admin pages to register, login and manage their blog posts.

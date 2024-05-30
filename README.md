@@ -32,7 +32,7 @@ I have used Figma to design the web page, and built it with HTML and CSS.
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:EliNygard/semester-project-1.git
+git clone git@github.com:EliNygard/FED1-SP1-EliNygard.git
 ```
 
 2. Install the dependencies:

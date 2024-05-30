@@ -12,10 +12,12 @@ The aim was to use the new knowledgde of project planning, web design and develo
 
 To do that, I was "hired" to design and build a modern, accessible and responsive web presence for the client. Images and text was provided. 
 
-#### Info about the client and instructions:
-The museum is opening soon. Its core target audience is primary and middle school children (ages 7-15) and families with young children.
+I wanted to create an informatic and well organized site with a design appealing to a grown up focus group. I wanted the information a typical parent first look for, the museums opening hours, location and other practical info, to be easy to find. At the same time I wished to keep the playfulness to target the main audience, the kids. I wanted a colourful design that was easy to manouver for both kids and adults, and I wanted the page to invite kids to click around on it and find the content easy, interesting and fun to read.   
 
-The site should appeal to youngsters without pandering; while aiming at a younger audience it should not patronise them with overtly childish themes. The core purpose of the site is to excite and entice people to visit the museum.
+#### Info about the client and instructions:
+- Its core target audience is primary and middle school children (ages 7-15) and families with young children.
+
+- The site should appeal to youngsters without pandering; while aiming at a younger audience it should not patronise them with overtly childish themes. The core purpose of the site is to excite and entice people to visit the museum.
 
 ## Built With
 I have used Figma to design the web page, and built it with HTML and CSS.

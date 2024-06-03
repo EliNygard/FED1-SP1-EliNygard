@@ -6,6 +6,8 @@
 
 [Visit Tórshavn Science Museum](https://elinygard.github.io/FED1-SP1-EliNygard/)
 
+<br>
+
 ## About the Project
 This is a web page for the fictional client Tórshavn Science Museum. 
 
@@ -23,8 +25,11 @@ I wanted to create an informatic and well organized site with a design appealing
 <p align="right"><a href="#readme-top">⬆️ Back to Top</a></p>
 
 ## Built With
-I have used Figma to design the web page, and built it with HTML and CSS.
+[<img title="Figma" height="48px" width="48px" alt="Icone VS-Code" src="https://skillicons.dev/icons?i=figma"/>](https://www.figma.com/)
+[<img title="HTML" height="48px" width="48px" alt="Icone VS-Code" src="https://skillicons.dev/icons?i=html"/>](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[<img title="CSS" height="48px" width="48px" alt="Icone VS-Code" src="https://skillicons.dev/icons?i=css"/>](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
+<br>
 
 ## Getting Started With the Project
 
@@ -62,6 +67,8 @@ Email: eli.nygard@gmail.com
 [My Linkedin Page](https://www.linkedin.com/in/eli-nyg%C3%A5rd/)
 
 Project Link: [https://github.com/EliNygard/FED1-SP1-EliNygard](https://github.com/EliNygard/FED1-SP1-EliNygard)
+
+<br>
 
 ## Acknowledgments
 I want to thank Oda, Manuel, Lena and Kåre for testing and reviewing my project.

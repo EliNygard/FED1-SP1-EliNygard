@@ -2,7 +2,7 @@
 #### FED1 Semester Project 1
 # Tórshavn Science Museum
 
-![image](https://i.ibb.co/KzVC9jf/Skjermbilde-2024-05-29-092411.png)
+![Screenshot from Tórshavn Science Museums home page](https://i.ibb.co/KzVC9jf/Skjermbilde-2024-05-29-092411.png)
 
 [Visit Tórshavn Science Museum](https://elinygard.github.io/FED1-SP1-EliNygard/)
 
